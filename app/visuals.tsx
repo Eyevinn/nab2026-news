@@ -98,65 +98,43 @@ export function HeroArt() {
   return (
     <div className="hero-art" aria-hidden="true">
       <svg
-        viewBox="0 0 1200 280"
+        viewBox="0 0 1200 320"
         preserveAspectRatio="xMidYMid slice"
         width="100%"
         height="100%"
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
-          <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#1a2234" />
-            <stop offset="100%" stopColor="#0a0e1a" />
+          <radialGradient id="hero-glow-a" cx="85%" cy="35%" r="55%">
+            <stop offset="0%" stopColor="#ff3d5a" stopOpacity="0.55" />
+            <stop offset="60%" stopColor="#ff3d5a" stopOpacity="0" />
+          </radialGradient>
+          <radialGradient id="hero-glow-b" cx="95%" cy="75%" r="45%">
+            <stop offset="0%" stopColor="#a855f7" stopOpacity="0.45" />
+            <stop offset="70%" stopColor="#a855f7" stopOpacity="0" />
+          </radialGradient>
+          <radialGradient id="hero-glow-c" cx="20%" cy="90%" r="40%">
+            <stop offset="0%" stopColor="#2ec4ff" stopOpacity="0.28" />
+            <stop offset="70%" stopColor="#2ec4ff" stopOpacity="0" />
+          </radialGradient>
+          <linearGradient id="hero-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="#0c1324" />
+            <stop offset="100%" stopColor="#060912" />
           </linearGradient>
-          <linearGradient id="hero-accent" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#ff3d5a" stopOpacity="0.8" />
-            <stop offset="50%" stopColor="#a855f7" stopOpacity="0.7" />
-            <stop offset="100%" stopColor="#2ec4ff" stopOpacity="0.7" />
-          </linearGradient>
-          <pattern
-            id="hero-dots"
-            width="24"
-            height="24"
-            patternUnits="userSpaceOnUse"
-          >
-            <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.08" />
-          </pattern>
         </defs>
-        <rect width="1200" height="280" fill="url(#hero-bg)" />
-        <rect width="1200" height="280" fill="url(#hero-dots)" />
-        {/* Broadcast-signal arcs on the right */}
-        <g transform="translate(900, 140)" opacity="0.9">
-          <circle cx="0" cy="0" r="28" fill="#ff3d5a" opacity="0.9" />
-          <path d="M50 -35 A60 60 0 0 1 50 35" stroke="#ff3d5a" strokeWidth="3" fill="none" opacity="0.8" />
-          <path d="M80 -55 A95 95 0 0 1 80 55" stroke="#a855f7" strokeWidth="3" fill="none" opacity="0.65" />
-          <path d="M110 -80 A135 135 0 0 1 110 80" stroke="#2ec4ff" strokeWidth="3" fill="none" opacity="0.5" />
-          <path d="M140 -105 A175 175 0 0 1 140 105" stroke="#2ec4ff" strokeWidth="3" fill="none" opacity="0.3" />
-        </g>
-        {/* Waveform on the left */}
-        <g transform="translate(80, 200)" opacity="0.5">
-          <path
-            d="M0 0 L20 -30 L40 20 L60 -40 L80 10 L100 -25 L120 35 L140 -15 L160 20 L180 -30 L200 15 L220 -20 L240 25 L260 -35 L280 10"
-            stroke="url(#hero-accent)"
-            strokeWidth="2.5"
-            fill="none"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </g>
-        {/* Scanlines across the full band */}
-        <g opacity="0.15">
-          {Array.from({ length: 14 }).map((_, i) => (
-            <rect
-              key={i}
-              x="0"
-              y={20 + i * 18}
-              width="1200"
-              height="1"
-              fill="#ffffff"
-            />
-          ))}
-        </g>
+        <rect width="1200" height="320" fill="url(#hero-bg)" />
+        <rect width="1200" height="320" fill="url(#hero-glow-a)" />
+        <rect width="1200" height="320" fill="url(#hero-glow-b)" />
+        <rect width="1200" height="320" fill="url(#hero-glow-c)" />
+        <line
+          x1="0"
+          y1="319"
+          x2="1200"
+          y2="319"
+          stroke="#ff3d5a"
+          strokeWidth="2"
+          opacity="0.6"
+        />
       </svg>
     </div>
   );
