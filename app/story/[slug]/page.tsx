@@ -23,6 +23,9 @@ export async function generateMetadata({
   const { slug } = await params;
   const story = getStoryBySlug(slug);
   if (!story) return { title: "Not found" };
+  const images = story.image
+    ? [{ url: story.image, alt: story.image_alt ?? story.title }]
+    : undefined;
   return {
     title: `${story.title} — NAB 2026 Live`,
     description: story.excerpt,
@@ -30,7 +33,17 @@ export async function generateMetadata({
       title: story.title,
       description: story.excerpt,
       type: "article",
-      publishedTime: story.date
+      publishedTime: story.date,
+      url: `https://nab2026.apps.osaas.io/story/${story.slug}`,
+      siteName: "NAB 2026 Live",
+      images,
+      tags: story.tags
+    },
+    twitter: {
+      card: story.image ? "summary_large_image" : "summary",
+      title: story.title,
+      description: story.excerpt,
+      images: story.image ? [story.image] : undefined
     }
   };
 }

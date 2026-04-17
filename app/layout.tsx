@@ -4,6 +4,7 @@ import { EventBanner, PromoFooter } from "./promos";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://nab2026.apps.osaas.io"),
   title: "NAB 2026 Live — what the broadcast industry is talking about",
   description:
     "Twice-daily news aggregator for NAB Show 2026 in Las Vegas. Floor announcements, summit coverage, and industry commentary for people who can't attend.",
@@ -14,7 +15,15 @@ export const metadata: Metadata = {
     title: "NAB 2026 Live",
     description:
       "What the broadcast industry is talking about on the NAB Show floor and online — refreshed twice a day.",
-    type: "website"
+    type: "website",
+    url: "https://nab2026.apps.osaas.io",
+    siteName: "NAB 2026 Live"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NAB 2026 Live",
+    description:
+      "What the broadcast industry is talking about at NAB Show 2026 — refreshed twice a day."
   }
 };
 
