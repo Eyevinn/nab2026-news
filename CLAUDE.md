@@ -98,16 +98,16 @@ claude
 
 ## Deployment
 
-OSC app: `nab2026news` (type `nodejs`). Build and runtime:
+OSC app: `nab2026news` (type `nodejs`), live at `https://nab2026.apps.osaas.io`. Build and runtime:
 
 - OSC clones the repo, runs `npm install`, runs `npm run build`, then `node .next/standalone/server.js`
 - Next.js reads `process.env.PORT` (set to 8080 by OSC automatically)
-- Static content in `content/stories/` is read at build time, so every push rebuilds the full site
+- Static content in `content/stories/` is read at build time, so every rebuild regenerates the full site
 
 Publishing flow:
-1. Agent task runs hourly → commits new stories → pushes to `main`
-2. OSC detects the push and rebuilds the app
-3. Live site updates within ~2 minutes
+1. Agent task runs twice daily → commits new stories → pushes to `main`
+2. **Agent explicitly calls OSC `restart-my-app` on `nab2026news`** — a push alone does NOT trigger a rebuild
+3. OSC rebuilds the container (~2–5 minutes) and the site updates
 
 ## Process Rules
 

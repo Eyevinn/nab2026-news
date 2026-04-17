@@ -22,6 +22,7 @@ Create a TodoWrite list:
 - [ ] Wait for all findings files
 - [ ] Spawn content-editor with findings paths
 - [ ] Spawn site-publisher
+- [ ] Call restart-my-app on `nab2026news` (only if a commit was pushed)
 
 ### 2. Scout (parallel — single message with 3 Agent calls)
 
@@ -76,9 +77,27 @@ Spawn `site-publisher`:
 >
 > Run `npm run build` to verify. If it fails, stop and report. Otherwise `git add content/ && git commit -m "..." && git push origin main`. Use the commit message format in your agent definition.
 >
-> Report commit SHA, file count, and site URL.
+> Report commit SHA, file count, and site URL. Do NOT trigger the OSC rebuild — I will.
 
-### 5. Report
+### 5. Trigger OSC rebuild (editor-in-chief, not a subagent)
+
+A git push does NOT auto-rebuild the OSC app. After the publisher reports a successful push, you must explicitly call the OSC MCP tool:
+
+- `mcp__osc__restart-my-app` with `appId: "nab2026news"` (use `rebuild: false` — code-only changes reuse build cache)
+
+If the MCP tool is unavailable, fall back to:
+
+```
+curl -X POST -H "Authorization: Bearer $OSC_ACCESS_TOKEN" \
+  https://api.prod.osaas.io/mcp/restart-my-app \
+  -d '{"appId":"nab2026news"}'
+```
+
+Verify the call returned success. You do NOT wait for the rebuild — it completes in 2–5 minutes in the background.
+
+**Skip this step if no commit was created (no new news).**
+
+### 6. Report
 
 Summarize to the user (or agent-task log):
 
@@ -89,8 +108,9 @@ Stories added: {N}
 - {slug2}
 ...
 Commit: {sha}
-Site: https://nab2026news.prod.osaas.io
-Next run: in 1 hour
+OSC rebuild: triggered
+Site: https://nab2026.apps.osaas.io
+Next run: {next cron fire time}
 ```
 
 ## Guardrails

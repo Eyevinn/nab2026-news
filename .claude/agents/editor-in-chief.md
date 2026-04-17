@@ -32,7 +32,8 @@ Read `.claude/skills/news-cycle.md` for the full workflow. Summary:
 3. Wait for all three to finish. Each writes to `/tmp/nab-findings-{beat}-{timestamp}.md`.
 4. **Spawn `content-editor`** with the three findings paths INLINED in the prompt (not just referenced). The editor dedupes, picks the best 3–8 new stories, and writes `content/stories/YYYY-MM-DD-slug.md` files.
 5. **Spawn `site-publisher`** to build, commit, and push.
-6. Report: number of stories added, their slugs, and the live URL.
+6. **Call `mcp__osc__restart-my-app`** with `appId: "nab2026news"` — a git push alone does NOT rebuild the OSC app. Skip this step if no commit was produced.
+7. Report: stories added, slugs, commit SHA, OSC restart triggered, live URL.
 
 ## Delegation Rules
 
@@ -57,3 +58,4 @@ Read `.claude/skills/news-cycle.md` for the full workflow. Summary:
 - Skip the scout phase ("I'll just search the web") — the scout beat structure matters.
 - Ship a story that lacks a source URL.
 - Post "done" before `git push` output confirms success.
+- Skip the OSC `restart-my-app` call after a successful push — without it the new stories never appear on the live site.
