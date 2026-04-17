@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllStories, formatDate } from "@/lib/stories";
+import { PromoSidebar } from "./promos";
 
 export const dynamic = "force-static";
 
@@ -28,42 +29,47 @@ export default async function Home({
         </p>
       </section>
 
-      {stories.length === 0 ? (
-        <div className="empty">
-          <h2>Warming up the newsroom…</h2>
-          <p>
-            The first news cycle is about to run. Check back in an hour, or
-            follow the project on GitHub.
-          </p>
-        </div>
-      ) : (
-        <section className="story-list">
-          {stories.map((s) => (
-            <Link key={s.slug} href={`/story/${s.slug}`} className="story-card">
-              <div className="story-meta">
-                <span
-                  className={`badge badge-${s.category}`}
-                  title={s.category === "floor" ? "On the floor" : "Online buzz"}
-                >
-                  {s.category}
-                </span>
-                <span>{formatDate(s.date)}</span>
-              </div>
-              <h2>{s.title}</h2>
-              <p>{s.excerpt}</p>
-              {s.tags?.length ? (
-                <div className="tags">
-                  {s.tags.map((t) => (
-                    <span key={t} className="tag">
-                      {t}
+      <div className="page-grid">
+        <div className="page-main">
+          {stories.length === 0 ? (
+            <div className="empty">
+              <h2>Warming up the newsroom…</h2>
+              <p>
+                The first news cycle is about to run. Check back in an hour, or
+                follow the project on GitHub.
+              </p>
+            </div>
+          ) : (
+            <section className="story-list">
+              {stories.map((s) => (
+                <Link key={s.slug} href={`/story/${s.slug}`} className="story-card">
+                  <div className="story-meta">
+                    <span
+                      className={`badge badge-${s.category}`}
+                      title={s.category === "floor" ? "On the floor" : "Online buzz"}
+                    >
+                      {s.category}
                     </span>
-                  ))}
-                </div>
-              ) : null}
-            </Link>
-          ))}
-        </section>
-      )}
+                    <span>{formatDate(s.date)}</span>
+                  </div>
+                  <h2>{s.title}</h2>
+                  <p>{s.excerpt}</p>
+                  {s.tags?.length ? (
+                    <div className="tags">
+                      {s.tags.map((t) => (
+                        <span key={t} className="tag">
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
+                </Link>
+              ))}
+            </section>
+          )}
+        </div>
+        <PromoSidebar placement="home" />
+      </div>
     </>
   );
 }

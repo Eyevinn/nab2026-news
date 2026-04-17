@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { PromoFooter } from "./promos";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "NAB 2026 Live — what the broadcast industry is talking about",
   description:
     "Hourly news aggregator for NAB Show 2026 in Las Vegas. Floor announcements, summit coverage, and industry commentary for people who can't attend.",
+  icons: {
+    icon: "/favicon.svg"
+  },
   openGraph: {
     title: "NAB 2026 Live",
     description:
@@ -39,6 +43,9 @@ export default function RootLayout({
           </div>
         </header>
         <main className="container">{children}</main>
+        <div className="container">
+          <PromoFooter placement="layout" />
+        </div>
         <footer className="site-footer">
           <div className="container">
             <p>
@@ -49,7 +56,10 @@ export default function RootLayout({
             </p>
             <p className="muted">
               Hourly aggregation by a Claude Code agent team running on{" "}
-              <a href="https://www.osaas.io" rel="noreferrer">
+              <a
+                href="https://www.osaas.io/?utm_source=nab2026&utm_medium=referral&utm_campaign=nab2026-news&utm_content=footer-credit"
+                rel="noreferrer"
+              >
                 Open Source Cloud
               </a>
               . Every story links to its primary source.

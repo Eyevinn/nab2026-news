@@ -6,6 +6,7 @@ import {
   getAllStories,
   getStoryBySlug
 } from "@/lib/stories";
+import { PromoSidebar } from "../../promos";
 
 export const dynamicParams = false;
 
@@ -43,42 +44,45 @@ export default async function StoryPage({
   if (!story) notFound();
 
   return (
-    <article className="story-detail">
-      <Link href="/" className="back-link">
-        ← All stories
-      </Link>
-      <div className="story-meta" style={{ marginTop: "1rem" }}>
-        <span className={`badge badge-${story.category}`}>{story.category}</span>
-        <span>{formatDate(story.date)}</span>
-      </div>
-      <h1>{story.title}</h1>
-      <div
-        className="story-body"
-        dangerouslySetInnerHTML={{ __html: story.bodyHtml }}
-      />
-      {story.tags?.length ? (
-        <div className="tags" style={{ marginTop: "1.5rem" }}>
-          {story.tags.map((t) => (
-            <Link key={t} href={`/topic/${t}`} className="tag">
-              {t}
-            </Link>
-          ))}
+    <div className="page-grid">
+      <article className="page-main story-detail">
+        <Link href="/" className="back-link">
+          ← All stories
+        </Link>
+        <div className="story-meta" style={{ marginTop: "1rem" }}>
+          <span className={`badge badge-${story.category}`}>{story.category}</span>
+          <span>{formatDate(story.date)}</span>
         </div>
-      ) : null}
-      {story.source_urls?.length ? (
-        <div className="sources">
-          <h3>Sources</h3>
-          <ul>
-            {story.source_urls.map((url) => (
-              <li key={url}>
-                <a href={url} rel="noreferrer" target="_blank">
-                  {url}
-                </a>
-              </li>
+        <h1>{story.title}</h1>
+        <div
+          className="story-body"
+          dangerouslySetInnerHTML={{ __html: story.bodyHtml }}
+        />
+        {story.tags?.length ? (
+          <div className="tags" style={{ marginTop: "1.5rem" }}>
+            {story.tags.map((t) => (
+              <Link key={t} href={`/topic/${t}`} className="tag">
+                {t}
+              </Link>
             ))}
-          </ul>
-        </div>
-      ) : null}
-    </article>
+          </div>
+        ) : null}
+        {story.source_urls?.length ? (
+          <div className="sources">
+            <h3>Sources</h3>
+            <ul>
+              {story.source_urls.map((url) => (
+                <li key={url}>
+                  <a href={url} rel="noreferrer" target="_blank">
+                    {url}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+      </article>
+      <PromoSidebar placement="story" />
+    </div>
   );
 }
