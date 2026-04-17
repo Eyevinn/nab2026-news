@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getAllStories, formatDate } from "@/lib/stories";
 import { getBrief } from "@/lib/brief";
 import { PromoSidebar } from "./promos";
-import { HeroArt, StoryArt } from "./visuals";
+import { HeroArt, TopicArt } from "./visuals";
 
 export const dynamic = "force-static";
 
@@ -62,12 +62,7 @@ export default async function Home({
             <section className="story-list">
               {stories.map((s) => (
                 <Link key={s.slug} href={`/story/${s.slug}`} className="story-card story-card-visual">
-                  <StoryArt
-                    image={s.image}
-                    imageAlt={s.image_alt}
-                    tags={s.tags}
-                    variant="card"
-                  />
+                  <TopicArt tags={s.tags} variant="card" />
                   <div className="story-card-body">
                     <div className="story-meta">
                       <span

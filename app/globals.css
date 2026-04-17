@@ -417,38 +417,33 @@ a:hover {
   margin-bottom: 0.5rem;
 }
 
-/* Source-image blocks */
+/* Source image, shown only on the story detail page */
 .story-art {
-  margin: 0;
+  margin: 1rem 0 0.5rem;
   overflow: hidden;
-  border-bottom: 1px solid var(--border);
+  border-radius: 8px;
+  border: 1px solid var(--border);
   background: var(--bg-elev2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .story-art img {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.story-art-card {
-  aspect-ratio: 2.2 / 1;
-}
-.story-art-hero {
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  margin-bottom: 1rem;
-  aspect-ratio: 16 / 7;
-  max-height: 360px;
+  max-width: 100%;
+  max-height: 440px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 .story-art-credit {
+  width: 100%;
   padding: 0.4rem 0.75rem;
   font-family: var(--font-mono);
   font-size: 0.72rem;
   color: var(--text-dim);
   background: rgba(0, 0, 0, 0.4);
-  position: relative;
-  margin-top: -2rem;
-  z-index: 1;
+  border-top: 1px solid var(--border);
 }
 
 /* Top event strip (Streaming Tech Sweden) */
