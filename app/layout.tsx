@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PromoFooter } from "./promos";
+import { EventBanner, PromoFooter } from "./promos";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -26,6 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <div className="event-strip-wrap">
+          <div className="container">
+            <EventBanner placement="top" />
+          </div>
+        </div>
         <header className="site-header">
           <div className="container header-inner">
             <Link href="/" className="brand">
