@@ -3,6 +3,7 @@ import { getAllStories, formatDate } from "@/lib/stories";
 import { getBrief } from "@/lib/brief";
 import { PromoSidebar } from "./promos";
 import { HeroArt, TopicArt } from "./visuals";
+import { SITE_URL, itemListJsonLd, jsonLdScript } from "@/lib/seo";
 
 export const dynamic = "force-static";
 
@@ -20,8 +21,15 @@ export default async function Home({
       ? all.filter((s) => s.category === cat)
       : all;
 
+  const listedForSchema = stories.slice(0, 20);
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: jsonLdScript(itemListJsonLd(listedForSchema, `${SITE_URL}/`))
+        }}
+      />
       <section className="hero hero-with-art">
         <HeroArt />
         <div className="hero-inner">

@@ -12,16 +12,17 @@ Readers cannot attend NAB in person. They want a curated, neutral, industry-awar
 
 ## Team
 
-Four agents in `.claude/agents/`:
+Five agents in `.claude/agents/`:
 
 | Agent | Role |
 |---|---|
-| `editor-in-chief` | Orchestrator — runs the news cycle, delegates, reports |
+| `editor-in-chief` | Orchestrator — runs the news cycle, delegates, reports, triggers OSC rebuild |
 | `news-scout` | Researches press releases + industry commentary via web search |
-| `content-editor` | Curates findings into published stories |
-| `site-publisher` | Builds, commits, pushes (triggers OSC rebuild) |
+| `content-editor` | Curates findings into published stories + rewrites `content/brief.md` |
+| `seo-aeo-expert` | Validates JSON-LD, metadata, and AEO signals per cycle; runs weekly audits |
+| `site-publisher` | Builds, commits, pushes |
 
-The editor-in-chief spawns **three scouts in parallel** (one message, three Agent calls), then the editor, then the publisher. See `.claude/skills/news-cycle.md` for the exact workflow.
+The editor-in-chief spawns **three scouts in parallel** (one message, three Agent calls), then the content-editor, then the seo-aeo-expert, then the publisher, then explicitly calls `mcp__osc__restart-my-app` to rebuild the OSC app. See `.claude/skills/news-cycle.md` for the exact workflow.
 
 ## Architecture
 

@@ -8,6 +8,13 @@ import {
 } from "@/lib/stories";
 import { PromoSidebar } from "../../promos";
 import { TopicArt } from "../../visuals";
+import {
+  SITE_URL,
+  breadcrumbJsonLd,
+  collectionPageJsonLd,
+  itemListJsonLd,
+  jsonLdScript
+} from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -21,9 +28,17 @@ export async function generateMetadata({
   params: Promise<{ tag: string }>;
 }): Promise<Metadata> {
   const { tag } = await params;
+  const url = `${SITE_URL}/topic/${tag}`;
   return {
     title: `#${tag} — NAB 2026 Live`,
-    description: `All NAB Show 2026 stories tagged "${tag}".`
+    description: `All NAB Show 2026 stories tagged "${tag}".`,
+    alternates: { canonical: url },
+    openGraph: {
+      title: `#${tag} — NAB 2026 Live`,
+      description: `All NAB Show 2026 stories tagged "${tag}".`,
+      url,
+      type: "website"
+    }
   };
 }
 
@@ -35,9 +50,27 @@ export default async function TopicPage({
   const { tag } = await params;
   const stories = getStoriesByTag(tag);
   if (stories.length === 0) notFound();
+  const url = `${SITE_URL}/topic/${tag}`;
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: jsonLdScript([
+            collectionPageJsonLd({
+              url,
+              name: `#${tag} — NAB 2026 Live`,
+              description: `All NAB Show 2026 stories tagged "${tag}".`
+            }),
+            itemListJsonLd(stories, url),
+            breadcrumbJsonLd([
+              { name: "Home", url: `${SITE_URL}/` },
+              { name: `#${tag}`, url }
+            ])
+          ])
+        }}
+      />
       <section className="hero">
         <div className="kicker">Topic</div>
         <h1>#{tag}</h1>

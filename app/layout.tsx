@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { EventBanner, PromoFooter } from "./promos";
+import {
+  jsonLdScript,
+  organizationJsonLd,
+  websiteJsonLd
+} from "@/lib/seo";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -11,13 +16,33 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg"
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1
+    }
+  },
+  alternates: {
+    canonical: "https://nab2026.apps.osaas.io",
+    types: {
+      "application/rss+xml": [
+        { url: "https://nab2026.apps.osaas.io/feed.xml", title: "NAB 2026 Live RSS" }
+      ]
+    }
+  },
   openGraph: {
     title: "NAB 2026 Live",
     description:
       "What the broadcast industry is talking about on the NAB Show floor and online — refreshed twice a day.",
     type: "website",
     url: "https://nab2026.apps.osaas.io",
-    siteName: "NAB 2026 Live"
+    siteName: "NAB 2026 Live",
+    locale: "en_US"
   },
   twitter: {
     card: "summary_large_image",
@@ -34,6 +59,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: jsonLdScript([organizationJsonLd(), websiteJsonLd()])
+          }}
+        />
+      </head>
       <body>
         <div className="event-strip-wrap">
           <div className="container">
@@ -66,6 +99,16 @@ export default function RootLayout({
               NAB Show 2026 · Las Vegas · April 18–22 ·{" "}
               <a href="https://www.nabshow.com/" rel="noreferrer">
                 nabshow.com
+              </a>
+            </p>
+            <p className="muted">
+              <Link href="/about">How this brief is made</Link> ·{" "}
+              <Link href="/feed.xml">RSS</Link> ·{" "}
+              <a
+                href="https://github.com/Eyevinn/nab2026-news"
+                rel="noreferrer"
+              >
+                Source on GitHub
               </a>
             </p>
             <p className="muted">

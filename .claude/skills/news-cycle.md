@@ -21,6 +21,7 @@ Create a TodoWrite list:
 - [ ] Spawn 3 scouts in parallel (floor / summit / online)
 - [ ] Wait for all findings files
 - [ ] Spawn content-editor with findings paths
+- [ ] Spawn seo-aeo-expert to validate new stories' metadata
 - [ ] Spawn site-publisher
 - [ ] Call restart-my-app on `nab2026news` (only if a commit was pushed)
 
@@ -69,17 +70,39 @@ Spawn `content-editor` with INLINED context:
 
 Wait for completion. Verify: `git status content/stories/` shows new files.
 
-### 4. Publish (serial)
+### 4. Validate SEO/AEO (serial — quick pass)
+
+Spawn `seo-aeo-expert`:
+
+> You are the seo-aeo-expert. The content-editor just wrote these story files:
+> - content/stories/2026-04-18-slug-1.md
+> - content/stories/2026-04-18-slug-2.md
+> - ...
+>
+> Validate Tier-1 signals on the new stories only (this is a per-cycle run, not a full site audit):
+> 1. Every story has a complete-sentence `excerpt` under 160 chars (not ending in "...").
+> 2. Every story has at least one `source_urls` entry.
+> 3. Every story headline is under 80 chars (NewsArticle-friendly).
+> 4. If an image is set, `image_alt` is also set.
+> 5. Tags are from the allowlist (see content-editor.md).
+>
+> Run `npm run build` to confirm nothing breaks type-checks. If any per-story fix is frontmatter-only (alt text, headline clamp, sentence completion of excerpt), apply it directly. If rewriting prose is needed, flag it back to me and I'll ask the content-editor to fix.
+>
+> Report per your agent definition's format. Do not commit.
+
+Wait for the report. If it flags structural issues (not simple frontmatter fixes), decide whether to re-spawn content-editor with guidance or to proceed.
+
+### 5. Publish (serial)
 
 Spawn `site-publisher`:
 
-> You are the site-publisher. The content-editor just wrote new stories under `content/stories/`.
+> You are the site-publisher. The content-editor + seo-aeo-expert have prepared new stories under `content/stories/`.
 >
 > Run `npm run build` to verify. If it fails, stop and report. Otherwise `git add content/ && git commit -m "..." && git push origin main`. Use the commit message format in your agent definition.
 >
 > Report commit SHA, file count, and site URL. Do NOT trigger the OSC rebuild — I will.
 
-### 5. Trigger OSC rebuild (editor-in-chief, not a subagent)
+### 6. Trigger OSC rebuild (editor-in-chief, not a subagent)
 
 A git push does NOT auto-rebuild the OSC app. After the publisher reports a successful push, you must explicitly call the OSC MCP tool:
 
@@ -97,7 +120,7 @@ Verify the call returned success. You do NOT wait for the rebuild — it complet
 
 **Skip this step if no commit was created (no new news).**
 
-### 6. Report
+### 7. Report
 
 Summarize to the user (or agent-task log):
 

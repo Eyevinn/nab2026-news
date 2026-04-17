@@ -8,6 +8,12 @@ import {
 } from "@/lib/stories";
 import { PromoSidebar } from "../../promos";
 import { StoryArt } from "../../visuals";
+import {
+  SITE_URL,
+  breadcrumbJsonLd,
+  jsonLdScript,
+  newsArticleJsonLd
+} from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -26,16 +32,22 @@ export async function generateMetadata({
   const images = story.image
     ? [{ url: story.image, alt: story.image_alt ?? story.title }]
     : undefined;
+  const url = `${SITE_URL}/story/${story.slug}`;
   return {
     title: `${story.title} — NAB 2026 Live`,
     description: story.excerpt,
+    keywords: story.tags,
+    alternates: { canonical: url },
     openGraph: {
       title: story.title,
       description: story.excerpt,
       type: "article",
       publishedTime: story.date,
-      url: `https://nab2026.apps.osaas.io/story/${story.slug}`,
+      modifiedTime: story.date,
+      section: story.category === "floor" ? "Floor" : "Online",
+      url,
       siteName: "NAB 2026 Live",
+      locale: "en_US",
       images,
       tags: story.tags
     },
@@ -59,6 +71,22 @@ export default async function StoryPage({
 
   return (
     <div className="page-grid">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: jsonLdScript([
+            newsArticleJsonLd(story),
+            breadcrumbJsonLd([
+              { name: "Home", url: `${SITE_URL}/` },
+              {
+                name: story.category === "floor" ? "Floor" : "Online",
+                url: `${SITE_URL}/?cat=${story.category}`
+              },
+              { name: story.title, url: `${SITE_URL}/story/${story.slug}` }
+            ])
+          ])
+        }}
+      />
       <article className="page-main story-detail">
         <Link href="/" className="back-link">
           ← All stories

@@ -31,9 +31,10 @@ Read `.claude/skills/news-cycle.md` for the full workflow. Summary:
    - Beat C: Online buzz — industry analyst commentary, trending topics on #NABShow
 3. Wait for all three to finish. Each writes to `/tmp/nab-findings-{beat}-{timestamp}.md`.
 4. **Spawn `content-editor`** with the three findings paths INLINED in the prompt (not just referenced). The editor dedupes, picks the best 3–8 new stories, and writes `content/stories/YYYY-MM-DD-slug.md` files.
-5. **Spawn `site-publisher`** to build, commit, and push.
-6. **Call `mcp__osc__restart-my-app`** with `appId: "nab2026news"` — a git push alone does NOT rebuild the OSC app. Skip this step if no commit was produced.
-7. Report: stories added, slugs, commit SHA, OSC restart triggered, live URL.
+5. **Spawn `seo-aeo-expert`** with the list of new story file paths. It validates Tier-1 SEO/AEO signals (excerpt sentence shape, headline length, image alt, source URL presence, valid tags) and can apply frontmatter-only fixes. Wait for its report.
+6. **Spawn `site-publisher`** to build, commit, and push.
+7. **Call `mcp__osc__restart-my-app`** with `appId: "nab2026news"` — a git push alone does NOT rebuild the OSC app. Skip this step if no commit was produced.
+8. Report: stories added, slugs, commit SHA, OSC restart triggered, live URL.
 
 ## Delegation Rules
 
