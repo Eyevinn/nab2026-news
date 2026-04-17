@@ -120,12 +120,21 @@ Publishing flow:
 
 ## Show Schedule Reference
 
-- **Conference/Workshops**: April 18–22, 2026
-- **Exhibits**: April 19–22, 2026
+- **Conferences & Workshops**: April 18–22, 2026 (start one day before the exhibit hall)
+- **Exhibit Hall / Show Floor**: April 19–22, 2026 (Sun 10–6, Mon–Tue 9–6, Wed 9–2)
 - **Streaming Summit**: April 20–21, 2026 (West Hall)
-- **Sports Summit**: All 4 show-floor days
+- **Sports Summit**: April 19–22, 2026 (Sports Theater, West Hall)
 - **Venue**: Las Vegas Convention Center
 - **Time zone**: Pacific (UTC-7). Most press cadence peaks 9am–6pm PT.
+
+### Day labelling (important for brief copy)
+
+- **April 18**: pre-show / conferences + workshops only — floor is NOT open. Frame stories as "pre-show" or "curtain-raiser", never "on the floor".
+- **April 19**: exhibit hall opens — this is the first floor day.
+- **April 20–21**: peak floor + Streaming Summit.
+- **April 22**: show closes at 2pm PT — early wrap-up coverage.
+
+Agents writing the brief and story copy MUST respect this. Referring to April 18 news as "on the floor" is a factual error.
 
 ## Useful Links
 

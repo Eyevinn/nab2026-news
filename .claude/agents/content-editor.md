@@ -108,6 +108,7 @@ date: "2026-04-18T16:00:00Z"
 - Replace the previous brief entirely — do not append. Only one brief at a time.
 - Date = current UTC timestamp.
 - No marketing adjectives. Same editorial tone as the stories.
+- **Respect the show calendar**: April 18 = pre-show / conferences only, the floor is NOT open. April 19 = first floor day. Do not write "day one of NAB opens on the floor" on April 18. See the show schedule in `CLAUDE.md`.
 
 ## Completion
 
