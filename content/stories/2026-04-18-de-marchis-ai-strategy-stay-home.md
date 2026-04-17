@@ -8,6 +8,8 @@ source_urls:
   - "https://aguywithascarf.substack.com/p/10-things-to-consider-about-nab-2026"
 companies: ["AWS", "Fox Sports", "NBCUniversal", "JioStar"]
 excerpt: "Carlo De Marchis's pre-show read warns that buyers will ignore AI deck-ware and judge vendors on shipping product and macro-aware pricing."
+image: "https://substackcdn.com/image/fetch/$s_!dF4M!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d2210ad-7989-4ddb-8b15-b4630ce7b707_1920x1080.jpeg"
+image_alt: "De Marchis: vendors pitching an AI strategy instead of product should stay home"
 ---
 
 [Carlo De Marchis's 10-point pre-show piece](https://aguywithascarf.substack.com/p/10-things-to-consider-about-nab-2026) is the bluntest analyst read heading into NAB 2026. His headline warning, delivered in the first item: "If you are going to Las Vegas with a slide that says 'our AI strategy' and a plan for a plan, stay home." Vendors arriving with generic decks instead of shipping product, he argues, will be ignored by buyers who have already sat through two cycles of AI demos.

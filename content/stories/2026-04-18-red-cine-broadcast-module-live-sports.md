@@ -8,6 +8,8 @@ source_urls:
   - "https://www.svgeurope.org/blog/news-roundup/nab-2026-red-to-demonstrate-cine-broadcast-module-in-live-sports-environment/"
 companies: ["RED Digital Cinema", "CBS Sports", "NBC Sports Group", "Fuse Technical Group"]
 excerpt: "RED demos multi-camera IP broadcast integration already shipping with CBS Sports and NBC Sports, anchored by the V-Raptor XE."
+image: "https://www.svgeurope.org/wp-content/blogs.dir/17/files/2026/01/Acquisition.jpg"
+image_alt: "RED takes Cine-Broadcast Module live with CBS Sports and NBC Sports"
 ---
 
 [RED Digital Cinema is demonstrating](https://www.svgeurope.org/blog/news-roundup/nab-2026-red-to-demonstrate-cine-broadcast-module-in-live-sports-environment/) the Cine-Broadcast Module in a live sports environment at NAB 2026, showcasing multi-camera IP broadcast integration already deployed with CBS Sports and NBC Sports Group in partnership with Fuse Technical Group. The setup is anchored by the V-Raptor XE, priced at $14,995, with 17 stops of dynamic range, 8K/60, 6K S35/80, 4K/120 and 2K/240 capture in a body under four pounds and a choice of RF or Nikon Z mounts.

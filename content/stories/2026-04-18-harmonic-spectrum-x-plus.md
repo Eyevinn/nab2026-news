@@ -9,6 +9,8 @@ source_urls:
   - "https://www.stocktitan.net/news/HLIT/harmonic-redefines-the-economics-of-video-playout-with-new-spectrum-c659d4c8ag9b.html"
 companies: ["Harmonic", "NVIDIA", "Red Hat"]
 excerpt: "Harmonic's Spectrum X Plus doubles channels per server and halves cost per channel, paired with a new AI orchestration service."
+image: "https://www.harmonicinc.com/hs-fs/hubfs/2026_Harmonic_NAB_MegaMenu_WS_VB_vf.png?width=1200&height=674&name=2026_Harmonic_NAB_MegaMenu_WS_VB_vf.png"
+image_alt: "Harmonic doubles playout density with Spectrum X Plus and AI orchestration"
 ---
 
 [Harmonic is showing](https://www.harmonicinc.com/press-releases/harmonic-accelerates-streaming-and-broadcast-transformations-at-the-2026-nab-show) the next-generation Spectrum X Plus media server at NAB 2026 from Booth W2831. The box doubles channel density to eight HD or two UHD channels per server and roughly halves the cost per channel versus prior generations, while supporting SDI and SMPTE ST 2110 I/O, GPU acceleration, HDR 3D LUT workflows, Dolby Atmos and MPEG-H immersive audio.

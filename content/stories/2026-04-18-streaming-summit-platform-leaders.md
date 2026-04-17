@@ -10,6 +10,8 @@ source_urls:
   - "https://www.globenewswire.com/news-release/2026/03/19/3259346/0/en/Next-Level-Creators-Top-Media-Leaders-Storytelling-Legends-and-AI-Step-Into-the-Spotlight-As-2026-NAB-Show-Unveils-Latest-Speakers-Sessions.html"
 companies: ["Paramount Global", "Amazon Prime Video", "NBCUniversal", "JioStar", "BBC Studios"]
 excerpt: "Paramount CTO Phil Wiser, Prime Video's BA Winston and NBCU's Matt Strauss headline a Streaming Summit framed around monetization and scale."
+image: "https://nabstreamingsummit.com/wp-content/uploads/2025/08/2026-Summit-Main-Image-V1.jpg"
+image_alt: "Streaming Summit lines up Paramount, Prime Video, NBCU and JioStar on scale"
 ---
 
 The [NAB Show Streaming Summit](http://nabstreamingsummit.com/) returns to West Hall on April 20-21 with roughly 85 speakers across concurrent tracks, chaired by analyst Dan Rayburn. Headline fireside chats feature Paramount Global CTO Phil Wiser, Amazon Prime Video's BA Winston on day two, and NBCUniversal DTC chairman Matt Strauss — a platform-leader roster heavier than any Streaming Summit to date.

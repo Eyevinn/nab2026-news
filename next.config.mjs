@@ -5,6 +5,11 @@ const nextConfig = {
     "/": ["./content/**/*"],
     "/story/[slug]": ["./content/**/*"],
     "/topic/[tag]": ["./content/**/*"]
+  },
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "**" }
+    ]
   }
 };
 

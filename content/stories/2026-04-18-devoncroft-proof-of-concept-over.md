@@ -9,6 +9,8 @@ source_urls:
   - "https://devoncroft.com/2026/04/08/agenda-and-speaker-lineup-for-2026-devoncroft-executive-summit-las-vegas/"
 companies: ["Devoncroft Partners"]
 excerpt: "Devoncroft's 2026 Executive Summit argues cloud, IP and remote workflows all work — the test now is running them reliably at flat budgets."
+image: "https://i0.wp.com/devoncroft.com/wp-content/uploads/2025/01/2024LV_DanaOliver_WPOD1056-scaled.jpg?fit=1024%2C914&ssl=1"
+image_alt: "Devoncroft calls time on broadcast's proof-of-concept decade"
 ---
 
 [Devoncroft's 2026 Executive Summit](https://devoncroft.com/lv-2026-overview/), held April 18 on the NAB Main Stage and drawing more than 400 C-level executives, opens with an explicit verdict on the last decade: "The proof-of-concept phase that defined much of the industry's technology conversation since the mid-2010s is, for the most part, over." The framing, drawn from Devoncroft's 17th Big Broadcast Survey and its Media Technology Market Sizing report, positions cloud production, IP distribution, remote workflows and streaming-as-a-business as established rather than emerging.

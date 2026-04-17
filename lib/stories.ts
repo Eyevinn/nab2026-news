@@ -12,6 +12,9 @@ export type StoryFrontmatter = {
   source_urls: string[];
   companies?: string[];
   excerpt: string;
+  image?: string;
+  image_alt?: string;
+  image_credit?: string;
 };
 
 export type Story = StoryFrontmatter & {

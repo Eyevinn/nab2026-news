@@ -6,14 +6,14 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "NAB 2026 Live — what the broadcast industry is talking about",
   description:
-    "Hourly news aggregator for NAB Show 2026 in Las Vegas. Floor announcements, summit coverage, and industry commentary for people who can't attend.",
+    "Twice-daily news aggregator for NAB Show 2026 in Las Vegas. Floor announcements, summit coverage, and industry commentary for people who can't attend.",
   icons: {
     icon: "/favicon.svg"
   },
   openGraph: {
     title: "NAB 2026 Live",
     description:
-      "What the broadcast industry is talking about on the NAB Show floor and online — refreshed hourly.",
+      "What the broadcast industry is talking about on the NAB Show floor and online — refreshed twice a day.",
     type: "website"
   }
 };
@@ -60,7 +60,7 @@ export default function RootLayout({
               </a>
             </p>
             <p className="muted">
-              Hourly aggregation by a Claude Code agent team running on{" "}
+              Twice-daily aggregation by a Claude Code agent team running on{" "}
               <a
                 href="https://www.osaas.io/?utm_source=nab2026&utm_medium=referral&utm_campaign=nab2026-news&utm_content=footer-credit"
                 rel="noreferrer"

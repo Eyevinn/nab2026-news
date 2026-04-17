@@ -8,6 +8,9 @@ source_urls:
   - "https://www.tvtechnology.com/production/avid-to-debut-avid-content-core-on-aws-at-2026-nab-show"
 companies: ["Avid", "AWS", "Amazon MGM Studios"]
 excerpt: "Avid unveils a cloud-native foundation unifying newsroom and post workflows, with Amazon MGM Studios already running Media Composer on AWS."
+image: "https://cdn.mos.cms.futurecdn.net/G8xdJ7LhWHPAFV5pu4YB9W.jpg"
+image_alt: "Avid launches Content Core on AWS with Amazon MGM as first customer"
+image_credit: "Image credit: Avid"
 ---
 
 [Avid is unveiling Avid Content Core on AWS](https://www.tvtechnology.com/production/avid-to-debut-avid-content-core-on-aws-at-2026-nab-show) at NAB 2026 from Booth N2226, pitching the platform as a cloud-native foundation that unifies newsroom and post-production workflows for broadcasters, studios and streamers. Amazon MGM Studios is the launch customer, already running Avid Media Composer and Avid NEXIS on AWS for large-scale productions.

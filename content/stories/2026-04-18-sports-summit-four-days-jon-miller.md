@@ -10,6 +10,9 @@ source_urls:
   - "https://broadcastdialogue.com/2026-nab-show-highlights-ai-sports-media-and-the-creator-economy/"
 companies: ["Lumen Technologies", "NBC Sports", "AWS", "Dolby", "Maple Leaf Sports & Entertainment"]
 excerpt: "NAB opens the Sports Summit to all floor pass holders across four days, with Lumen as title sponsor and NBC's Jon Miller on the main stage."
+image: "https://cdn.mos.cms.futurecdn.net/8tYVXA35ByCZaCH27wR4QS.jpg"
+image_alt: "Sports Summit expands to four days with NBC's Jon Miller headlining"
+image_credit: "© NAB Show"
 ---
 
 [NAB has expanded the Sports Summit](https://www.nab.org/documents/newsRoom/pressRelease.asp?id=7399) to a four-day program under the banner "The Future of Sports Rights and Fan Engagement," running April 18-22 in the Sports Theater on the West Hall floor. For the first time the programming is open to any attendee with a Show Floor Pass rather than requiring a conference upgrade — a deliberate signal that NAB is treating sports as core, not adjacent, to broadcast.

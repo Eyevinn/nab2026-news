@@ -297,6 +297,156 @@ a:hover {
   letter-spacing: 0.08em;
 }
 
+/* Hero art behind the hero */
+.hero-with-art {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  padding: 0;
+  margin: 1.5rem 0 2rem;
+  border-bottom: none;
+  min-height: 240px;
+}
+.hero-art {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  padding: 2.5rem 1.75rem 2.25rem;
+  max-width: 32rem;
+}
+.hero-with-art h1 {
+  font-size: clamp(1.7rem, 4vw, 2.6rem);
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+.hero-with-art p {
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+.hero-with-art .kicker {
+  color: #ff3d5a;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+}
+
+/* The brief — editorial summary block */
+.brief {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 61, 90, 0.1) 0%,
+    rgba(46, 196, 255, 0.06) 100%
+  );
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 1.4rem 1.6rem 1.5rem;
+  margin: 0 0 2rem;
+}
+.brief-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+.brief-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  background: rgba(255, 61, 90, 0.18);
+  border-radius: 3px;
+}
+.brief-date {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.brief-title {
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  margin: 0 0 0.8rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+.brief-body {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+.brief-body p {
+  margin: 0 0 0.9rem;
+}
+.brief-body p:last-child {
+  margin-bottom: 0;
+}
+.brief-body strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* Story card visual (topic-colored art block or source image on top) */
+.story-card-visual {
+  padding: 0;
+  overflow: hidden;
+}
+.story-card-visual .story-card-body {
+  padding: 1.1rem 1.4rem 1.3rem;
+}
+.topic-art {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+}
+.topic-art svg {
+  display: block;
+}
+.topic-art-hero {
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin-bottom: 0.5rem;
+}
+
+/* Source-image blocks */
+.story-art {
+  margin: 0;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-elev2);
+}
+.story-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story-art-card {
+  aspect-ratio: 2.2 / 1;
+}
+.story-art-hero {
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin-bottom: 1rem;
+  aspect-ratio: 16 / 7;
+  max-height: 360px;
+}
+.story-art-credit {
+  padding: 0.4rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+  margin-top: -2rem;
+  z-index: 1;
+}
+
 /* Top event strip (Streaming Tech Sweden) */
 .event-strip-wrap {
   background: linear-gradient(

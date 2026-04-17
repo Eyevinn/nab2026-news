@@ -47,25 +47,25 @@ export const PROMOS: Promo[] = [
   },
   {
     name: "Auto Subtitles",
-    tagline: "Generate accurate subtitles from any media file.",
+    tagline: "AI-generated subtitles, scored against Netflix, BBC and EBU broadcast standards.",
     url: "https://autosubs.apps.osaas.io",
     category: "tool"
   },
   {
     name: "Open Media Convert",
-    tagline: "Open-source media transcoding in the cloud.",
+    tagline: "Open-source video transcoding and DASH/HLS packaging, built on SVT Encore.",
     url: "https://mediaconvert.apps.osaas.io",
     category: "tool"
   },
   {
     name: "Open Intercom",
-    tagline: "Real-time voice intercom for live productions.",
+    tagline: "Browser-based WebRTC intercom for production teams — 10–100× cheaper than hardware.",
     url: "https://intercom.apps.osaas.io",
     category: "tool"
   },
   {
     name: "Open Analytics",
-    tagline: "Privacy-first website analytics, self-hosted.",
+    tagline: "AI-native video QoE analytics on the open EPAS standard — query with SQL or Claude.",
     url: "https://analytics.apps.osaas.io",
     category: "tool"
   }

@@ -7,6 +7,7 @@ import {
   getStoriesByTag
 } from "@/lib/stories";
 import { PromoSidebar } from "../../promos";
+import { StoryArt } from "../../visuals";
 
 export const dynamicParams = false;
 
@@ -49,13 +50,21 @@ export default async function TopicPage({
         <div className="page-main">
           <section className="story-list">
             {stories.map((s) => (
-              <Link key={s.slug} href={`/story/${s.slug}`} className="story-card">
-                <div className="story-meta">
-                  <span className={`badge badge-${s.category}`}>{s.category}</span>
-                  <span>{formatDate(s.date)}</span>
+              <Link key={s.slug} href={`/story/${s.slug}`} className="story-card story-card-visual">
+                <StoryArt
+                  image={s.image}
+                  imageAlt={s.image_alt}
+                  tags={s.tags}
+                  variant="card"
+                />
+                <div className="story-card-body">
+                  <div className="story-meta">
+                    <span className={`badge badge-${s.category}`}>{s.category}</span>
+                    <span>{formatDate(s.date)}</span>
+                  </div>
+                  <h2>{s.title}</h2>
+                  <p>{s.excerpt}</p>
                 </div>
-                <h2>{s.title}</h2>
-                <p>{s.excerpt}</p>
               </Link>
             ))}
           </section>

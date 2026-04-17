@@ -7,6 +7,7 @@ import {
   getStoryBySlug
 } from "@/lib/stories";
 import { PromoSidebar } from "../../promos";
+import { StoryArt } from "../../visuals";
 
 export const dynamicParams = false;
 
@@ -49,7 +50,14 @@ export default async function StoryPage({
         <Link href="/" className="back-link">
           ← All stories
         </Link>
-        <div className="story-meta" style={{ marginTop: "1rem" }}>
+        <StoryArt
+          image={story.image}
+          imageAlt={story.image_alt}
+          imageCredit={story.image_credit}
+          tags={story.tags}
+          variant="hero"
+        />
+        <div className="story-meta" style={{ marginTop: "1.25rem" }}>
           <span className={`badge badge-${story.category}`}>{story.category}</span>
           <span>{formatDate(story.date)}</span>
         </div>

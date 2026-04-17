@@ -33,6 +33,9 @@ Write findings to `/tmp/nab-findings-{beat}-{timestamp}.md` with the following s
 - **Published**: {date if known}
 - **Companies/people**: {who}
 - **Topic tags**: {ai, streaming, cloud, sports, production, codec, ...}
+- **Image**: {full URL of og:image or featured image from the fetched page — empty if you could not find one. Extract from `<meta property="og:image" content="...">`, `<meta name="twitter:image">`, or the first in-article `<img>` of reasonable size. Prefer https URLs. Must be an absolute URL.}
+- **Image alt**: {short alt text — the article headline is a fine default}
+- **Image credit**: {outlet/photographer if visible on the page; e.g. "Photo: Grass Valley" or "Credit: TV Technology"}
 - **Summary** (3–5 sentences): What happened, why industry cares, any hard numbers or differentiators.
 - **Quote** (optional): One short verbatim quote if notable.
 
@@ -54,7 +57,7 @@ Use WebSearch with queries like:
 
 **Deprioritize**: aggregator-only sites, SEO spam, press-release pipes without editorial review.
 
-Use WebFetch on the most promising 3–5 result URLs to get actual content. Do not quote what you didn't fetch.
+Use WebFetch on the most promising 3–5 result URLs to get actual content. Do not quote what you didn't fetch. **Always ask WebFetch to return the og:image URL, twitter:image, and article credit line** along with the summary — so the finding can ship with a picture.
 
 ## Deduplication
 
