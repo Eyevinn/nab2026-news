@@ -6,7 +6,22 @@ export const metadata: Metadata = {
   title: "How this brief is made — NAB 2026 Live",
   description:
     "NAB 2026 Live is an AI-newsroom aggregator. Here's how stories are sourced, written, edited, and published — and what guardrails are in place.",
-  alternates: { canonical: `${SITE_URL}/about` }
+  alternates: { canonical: `${SITE_URL}/about` },
+  openGraph: {
+    title: "How this brief is made — NAB 2026 Live",
+    description:
+      "NAB 2026 Live is an AI-newsroom aggregator. Here's how stories are sourced, written, edited, and published — and what guardrails are in place.",
+    url: `${SITE_URL}/about`,
+    type: "website",
+    siteName: "NAB 2026 Live",
+    locale: "en_US"
+  },
+  twitter: {
+    card: "summary",
+    title: "How this brief is made — NAB 2026 Live",
+    description:
+      "NAB 2026 Live is an AI-newsroom aggregator. Here's how stories are sourced, written, edited, and published — and what guardrails are in place."
+  }
 };
 
 export default function About() {

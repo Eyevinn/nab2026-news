@@ -15,6 +15,7 @@ import {
   itemListJsonLd,
   jsonLdScript
 } from "@/lib/seo";
+import { getTopicDescription } from "@/lib/topicDescriptions";
 
 export const dynamicParams = false;
 
@@ -29,15 +30,25 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { tag } = await params;
   const url = `${SITE_URL}/topic/${tag}`;
+  const topicDesc =
+    getTopicDescription(tag) ??
+    `All NAB Show 2026 stories tagged "${tag}".`;
   return {
     title: `#${tag} — NAB 2026 Live`,
-    description: `All NAB Show 2026 stories tagged "${tag}".`,
+    description: topicDesc,
     alternates: { canonical: url },
     openGraph: {
       title: `#${tag} — NAB 2026 Live`,
-      description: `All NAB Show 2026 stories tagged "${tag}".`,
+      description: topicDesc,
       url,
-      type: "website"
+      type: "website",
+      siteName: "NAB 2026 Live",
+      locale: "en_US"
+    },
+    twitter: {
+      card: "summary",
+      title: `#${tag} — NAB 2026 Live`,
+      description: topicDesc
     }
   };
 }
@@ -51,6 +62,9 @@ export default async function TopicPage({
   const stories = getStoriesByTag(tag);
   if (stories.length === 0) notFound();
   const url = `${SITE_URL}/topic/${tag}`;
+  const topicDesc =
+    getTopicDescription(tag) ??
+    `All NAB Show 2026 stories tagged "${tag}".`;
 
   return (
     <>
@@ -61,7 +75,7 @@ export default async function TopicPage({
             collectionPageJsonLd({
               url,
               name: `#${tag} — NAB 2026 Live`,
-              description: `All NAB Show 2026 stories tagged "${tag}".`
+              description: topicDesc
             }),
             itemListJsonLd(stories, url),
             breadcrumbJsonLd([
@@ -74,10 +88,7 @@ export default async function TopicPage({
       <section className="hero">
         <div className="kicker">Topic</div>
         <h1>#{tag}</h1>
-        <p>
-          {stories.length} stor{stories.length === 1 ? "y" : "ies"} from NAB
-          Show 2026.
-        </p>
+        <p>{topicDesc}</p>
       </section>
       <div className="page-grid">
         <div className="page-main">
