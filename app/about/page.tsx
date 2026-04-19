@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SITE_URL, jsonLdScript, breadcrumbJsonLd } from "@/lib/seo";
+import { SITE_URL, RSS_ALTERNATE_TYPES, jsonLdScript, breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "How this brief is made — NAB 2026 Live",
   description:
     "NAB 2026 Live is an AI-newsroom aggregator. Here's how stories are sourced, written, edited, and published — and what guardrails are in place.",
-  alternates: { canonical: `${SITE_URL}/about` },
+  alternates: { canonical: `${SITE_URL}/about`, ...RSS_ALTERNATE_TYPES },
   openGraph: {
     title: "How this brief is made — NAB 2026 Live",
     description:

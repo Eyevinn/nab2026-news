@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     locale: "en_US"
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "NAB 2026 Live",
     description:
       "What the broadcast industry is talking about at NAB Show 2026 — refreshed twice a day."

@@ -10,6 +10,7 @@ import { PromoSidebar } from "../../promos";
 import { TopicArt } from "../../visuals";
 import {
   SITE_URL,
+  RSS_ALTERNATE_TYPES,
   breadcrumbJsonLd,
   collectionPageJsonLd,
   itemListJsonLd,
@@ -36,7 +37,7 @@ export async function generateMetadata({
   return {
     title: `#${tag} — NAB 2026 Live`,
     description: topicDesc,
-    alternates: { canonical: url },
+    alternates: { canonical: url, ...RSS_ALTERNATE_TYPES },
     openGraph: {
       title: `#${tag} — NAB 2026 Live`,
       description: topicDesc,

@@ -115,3 +115,11 @@ export function jsonLdScript(data: unknown | unknown[]): string {
   const payload = Array.isArray(data) ? data : [data];
   return JSON.stringify(payload);
 }
+
+export const RSS_ALTERNATE_TYPES = {
+  types: {
+    "application/rss+xml": [
+      { url: `${SITE_URL}/feed.xml`, title: "NAB 2026 Live RSS" }
+    ]
+  }
+};
