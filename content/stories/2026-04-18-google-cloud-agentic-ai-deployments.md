@@ -7,7 +7,7 @@ tags: ["ai", "cloud", "production", "streaming"]
 source_urls:
   - "https://cloud.google.com/transform/media-at-the-speed-of-ideas-the-rise-of-the-agentic-production-environment-nab"
 companies: ["Google Cloud", "Cadent", "Gray Media", "MLB", "NBCUniversal", "Avid", "Groupe CANAL+"]
-excerpt: "A Google Cloud pre-show post names Cadent's 35% ROAS increase, Gray Media's 1,300-touchpoint AI operation, and MLB's real-time commentary as agentic AI at production scale."
+excerpt: "Google Cloud names Cadent's 35% ROAS increase, Gray Media's 1,300-touchpoint AI operation, and MLB's real-time commentary as agentic AI at production scale."
 image: "https://storage.googleapis.com/gweb-cloudblog-publish/images/GettyImages-469993293.max-2600x2600.jpg"
 image_alt: "Agentic production environment at NAB 2026"
 image_credit: "Google Cloud Blog"

@@ -8,7 +8,7 @@ source_urls:
   - "http://nabstreamingsummit.com/"
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/streaming-summit/"
 companies: ["PGA TOUR", "Amazon Prime Video", "DAZN", "Warner Bros. Discovery", "NASCAR", "FanDuel"]
-excerpt: "Sessions titled 'The Complex and Fragmented World of Sports Streaming' and 'Defining the User Experience for Live Sports' put rights-map complexity at the center of the Streaming Summit agenda."
+excerpt: "Two Streaming Summit sessions on sports rights fragmentation and live UX place rights-map complexity at the center of the 2026 Streaming Summit agenda."
 image: "https://nabstreamingsummit.com/wp-content/uploads/2025/08/2026-Summit-Main-Image-V1.jpg"
 image_alt: "NAB Streaming Summit 2026 sports streaming sessions"
 image_credit: "nabstreamingsummit.com"

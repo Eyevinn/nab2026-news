@@ -7,7 +7,7 @@ tags: ["streaming", "live-sports", "cloud"]
 source_urls:
   - "https://www.tvtechnology.com/production/sports-production/mediakind-showcases-multiview-deployments-at-2026-nab-show"
 companies: ["MediaKind", "Charter Communications", "Comcast"]
-excerpt: "MediaKind's cloud multiview platform now serves over 20 million subscribers in North America, with Charter deploying for NCAA and Comcast adding viewer-assembled NFL layouts."
+excerpt: "MediaKind's MK.IO Multiview serves over 20 million North American subscribers, with Charter deploying for NCAA and Comcast adding viewer-assembled NFL layouts."
 image: "https://cdn.mos.cms.futurecdn.net/deJqPtN8FxHuhCxVbXgVJW.png"
 image_alt: "MediaKind cloud multiview deployment for Charter and Comcast"
 image_credit: "Charter Communications"

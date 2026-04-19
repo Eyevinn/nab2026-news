@@ -8,7 +8,7 @@ source_urls:
   - "https://www.tvtechnology.com/infrastructure/synamedia-to-feature-quortex-powervu-cloud-native-video-distribution-at-2026-nab-show"
   - "https://www.sportsvideo.org/2026/04/13/nab-2026-synamedia-launches-cloud-controlled-edge-playout-version-of-quortex-powervu/"
 companies: ["Synamedia"]
-excerpt: "Synamedia's updated Quortex PowerVu replaces satellite-to-IP broadcast distribution for US broadcasters and their affiliates, with an edge-playout model that avoids decoding the full national feed."
+excerpt: "Synamedia's Quortex PowerVu replaces satellite-to-IP affiliate distribution with an edge-playout model that avoids decoding the full national feed, cutting costs by up to 80%."
 image: "https://cdn.mos.cms.futurecdn.net/7yujnP7R7W4n5q6eHwH4KS.png"
 image_alt: "Synamedia Quortex PowerVu cloud-native video distribution"
 image_credit: "Credit: Synamedia"

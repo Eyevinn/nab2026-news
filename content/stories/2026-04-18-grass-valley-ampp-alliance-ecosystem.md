@@ -8,7 +8,7 @@ source_urls:
   - "https://www.tvtechnology.com/infrastructure/grass-valley-showcases-alliance-ecosystem-at-2026-nab-show"
   - "https://www.svgeurope.org/blog/news-roundup/nab-2026-alliance-ecosystem-in-focus-for-grass-valley/"
 companies: ["Grass Valley", "Telestream", "Motion Impossible", "TVU", "AI-Media", "Zoom"]
-excerpt: "Grass Valley uses NAB 2026 pre-show to demonstrate its open AMPP platform with more than a dozen third-party integrations spanning robotics, automation, and cloud connectivity."
+excerpt: "Grass Valley demonstrates the open AMPP platform at NAB 2026 with over a dozen third-party integrations spanning robotics, automation, and cloud connectivity."
 image: "https://www.grassvalley.com/wp-content/uploads/2026/04/AMPP-Alliance-Partners-NAB2026.png"
 image_alt: "Grass Valley AMPP Alliance Partner ecosystem at NAB 2026"
 image_credit: "Photo: Grass Valley"

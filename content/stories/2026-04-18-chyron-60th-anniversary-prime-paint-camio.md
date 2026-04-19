@@ -7,7 +7,7 @@ tags: ["ai", "sports", "production", "broadcast"]
 source_urls:
   - "https://chyron.com/chyron-nab-2026-60-years-innovation-live-production/"
 companies: ["Chyron"]
-excerpt: "Chyron's 60th-anniversary NAB releases span multi-engine PRIME sync, NBA and NFL player tracking in PAINT, AI image tagging in CAMIO, and Unreal Engine 5.6 support in PRIME VSAR."
+excerpt: "Chyron's 60th-anniversary NAB releases span PRIME multi-engine sync, NBA/NFL tracking in PAINT, AI image tagging in CAMIO, and Unreal Engine 5.6 in PRIME VSAR."
 image: "https://chyron.com/wp-content/uploads/2026/04/NAB-PR-2026-1-1680x945.jpg"
 image_alt: "Chyron NAB 2026 60 years of innovation"
 ---

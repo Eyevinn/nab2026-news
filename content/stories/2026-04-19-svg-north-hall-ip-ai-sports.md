@@ -7,7 +7,7 @@ tags: ["sports", "ip-video", "ai", "production"]
 source_urls:
   - "https://www.sportsvideo.org/2026/04/17/nab-2026-preview-north-hall-everything-you-need-to-know-heading-into-the-show/"
 companies: ["Sports Video Group"]
-excerpt: "Sports Video Group's North Hall floor preview identifies SMPTE ST 2110 infrastructure and real-time AI augmentation as the two dominant themes across live sports exhibits."
+excerpt: "SVG's North Hall preview identifies ST 2110 infrastructure and real-time AI augmentation as the two dominant themes across live sports exhibits at NAB 2026."
 ---
 
 [Sports Video Group published a North Hall floor preview ahead of NAB 2026](https://www.sportsvideo.org/2026/04/17/nab-2026-preview-north-hall-everything-you-need-to-know-heading-into-the-show/) that identifies two dominant themes across the sports production exhibits: IP infrastructure built on SMPTE ST 2110, and real-time AI tools for live sports augmentation.

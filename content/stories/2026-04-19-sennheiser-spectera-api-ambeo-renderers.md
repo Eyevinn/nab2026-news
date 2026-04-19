@@ -8,7 +8,7 @@ source_urls:
   - "https://newsroom.sennheiser.com/the-sennheiser-group-shows-the-latest-immersive-audio-solutions-and-wireless-technologies-at-nab-2026-574eix"
   - "https://www.sportsvideo.org/2026/04/15/nab-2026-sennheiser-group-to-exhibit-with-spectera-and-ambeo-updates/"
 companies: ["Sennheiser"]
-excerpt: "Spectera firmware v1.3.0 introduces an OpenAPI 17.0 integration layer; new AMBEO renderers cover both file-based VOD and real-time broadcast spatial audio encoding."
+excerpt: "Spectera firmware v1.3.0 introduces an OpenAPI integration layer; new AMBEO renderers cover both file-based VOD and real-time broadcast spatial audio encoding."
 ---
 
 [Sennheiser is showing Spectera firmware v1.3.0](https://newsroom.sennheiser.com/the-sennheiser-group-shows-the-latest-immersive-audio-solutions-and-wireless-technologies-at-nab-2026-574eix) at NAB 2026 at Central Hall booth 4931, introducing the Spectera API based on OpenAPI 17.0. The interface allows production control systems and broadcast automation workflows to integrate directly with the Spectera wireless microphone management platform. A Spectera Rental Finder tool also launches, mapping worldwide Spectera system availability for touring and event rental markets.

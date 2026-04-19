@@ -8,7 +8,7 @@ source_urls:
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/streaming-summit/"
   - "https://www.nabshow.com/press-release/next-level-creators-top-media-leaders-storytelling-legends-and-ai-step-into-the-spotlight-as-2026-nab-show-unveils-latest-speakers-sessions/"
 companies: ["Akamai", "AWS", "Elecard", "Tiledmedia", "Altman Solon", "Momento", "MediaKind"]
-excerpt: "The 2026 Streaming Summit includes a session presenting live-test data on AI chatbots as discovery interfaces, the first time the Summit has devoted a full slot to AI as a front-end user experience tool."
+excerpt: "The 2026 Streaming Summit devotes a full session to live-test data on AI chatbots as content discovery interfaces — the first time the Summit dedicates a slot to AI as a front-end tool."
 image: "https://nabstreamingsummit.com/wp-content/uploads/2025/08/2026-Summit-Main-Image-V1.jpg"
 image_alt: "NAB Streaming Summit 2026 AI sessions"
 image_credit: "nabstreamingsummit.com"

@@ -8,7 +8,7 @@ source_urls:
   - "https://www.wowza.com/blog/wowza-demos-ai-workflows-at-nab-show-2026"
   - "https://roastbrief.us/wowza-to-showcase-ai-powered-video-workflows-and-emerging-streaming-architectures-at-nab-show-2026/"
 companies: ["Wowza Media Systems", "Cloudflare"]
-excerpt: "Wowza shows automated QC and AI-driven ad insertion alongside a live MoQ demo with Cloudflare, running OBS output through CMAF over MoQT to Shaka Player at sub-second latency."
+excerpt: "Wowza demos automated QC and AI-driven ad insertion alongside a live MoQ integration with Cloudflare, delivering CMAF over MoQT to Shaka Player at sub-second latency."
 image: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1280,h_630/https://www.wowza.com/wp-content/uploads/NABPreview-BlogHeadernotext.v2-c.png"
 image_alt: "Wowza AI workflows and MoQ demo at NAB Show 2026"
 ---

@@ -8,7 +8,7 @@ source_urls:
   - "https://devoncroft.com/lv-2026-overview/"
   - "https://devoncroft.com/2026/03/16/technology-suppliers-ranked-by-net-change-of-overall-opinion-in-2025-big-broadcast-survey/"
 companies: ["Devoncroft Partners"]
-excerpt: "The 2025 Big Broadcast Survey, drawing several thousand respondents across 100-plus countries, measured a 2.4% aggregate revenue decline across the media technology sector."
+excerpt: "Devoncroft's 2025 Big Broadcast Survey, drawing thousands of respondents from over 100 countries, measured a 2.4% aggregate revenue decline in media technology."
 ---
 
 [Devoncroft Partners presented findings from its 2025 Big Broadcast Survey](https://devoncroft.com/lv-2026-overview/) at its Executive Summit on April 18 on the NAB Show Main Stage. The headline number: aggregate media technology sector revenue declined 2.4% in 2025. The survey is described as the largest annual demand-side study of the global broadcast and media technology sector, drawing several thousand media professionals across more than 100 countries.

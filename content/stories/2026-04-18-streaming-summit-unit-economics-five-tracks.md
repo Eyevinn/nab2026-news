@@ -8,7 +8,7 @@ source_urls:
   - "http://nabstreamingsummit.com/"
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/streaming-summit/"
 companies: ["Paramount Global", "Amazon Prime Video", "NBCUniversal", "JioStar", "BBC Studios"]
-excerpt: "The April 20–21 Streaming Summit organizes 85 speakers around bundling, churn, FAST/AVOD models, workflow cost, and content discovery — all pointing to monetization over growth."
+excerpt: "The Streaming Summit organizes 85 speakers around bundling, churn, FAST/AVOD models, workflow cost, and discovery — all pointing to monetization over growth."
 image: "https://nabstreamingsummit.com/wp-content/uploads/2025/08/2026-Summit-Main-Image-V1.jpg"
 image_alt: "NAB Show Streaming Summit 2026 promotional banner"
 image_credit: "nabstreamingsummit.com"

@@ -9,7 +9,7 @@ source_urls:
   - "https://www.tvtechnology.com/events/2026-nab-show-opens-with-1-100-exhibitors-attendees-from-18-000-companies"
   - "https://www.insideradio.com/free/nab-show-2026-spotlights-ai-sports-media-shift-and-creator-economy-growth/article_95344605-789d-4fe0-a032-5bb5d09f242b.html"
 companies: ["NAB"]
-excerpt: "Attendance represents 18,000-plus companies — up from 12,000 in 2025 — with AI exhibitor count nearly doubled year-over-year and two new AI Innovation Pavilions."
+excerpt: "NAB Show 2026 draws over 18,000 companies — up from 12,000 in 2025 — with AI exhibitors nearly doubled year-over-year and two new AI Innovation Pavilions debuting."
 image: "https://cdn.mos.cms.futurecdn.net/3QUpoESmf7JTwifzfUZpMM-1024-75.jpg"
 image_alt: "NAB Show 2026 overview"
 image_credit: "TV Technology"

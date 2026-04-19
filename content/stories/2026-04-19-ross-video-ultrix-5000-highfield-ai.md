@@ -8,7 +8,7 @@ source_urls:
   - "https://www.rossvideo.com/company/media/news-releases/ross-video-returns-to-2026-nab-show-showcasing-continued-innovation-and-customer-driven-growth/"
   - "https://f.digitalmediaworld.tv/broadcast/ross-and-highfield-ai-integrate-to-develop-intelligent-news-graphics-creation"
 companies: ["Ross Video", "HighField AI"]
-excerpt: "The Ultrix hyperconverged routing frame has passed 5,000 units deployed across 120 countries; a new HighField AI integration targets automated news graphics creation."
+excerpt: "Ross Video's Ultrix routing frame has passed 5,000 deployments across 120 countries; a new HighField AI integration targets automated news graphics creation."
 image: "https://www.rossvideo.com/wp-content/uploads/2026/03/image006.jpg"
 image_alt: "Ross Video NAB 2026 booth North Hall"
 image_credit: "Ross Video"

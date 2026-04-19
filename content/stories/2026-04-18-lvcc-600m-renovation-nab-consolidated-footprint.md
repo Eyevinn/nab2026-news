@@ -7,7 +7,7 @@ tags: ["broadcast", "production", "distribution"]
 source_urls:
   - "https://radioink.com/2026/04/17/countdown-to-nab-show-2026-april-carty-sipps-guide-for-radio/"
 companies: ["NAB"]
-excerpt: "A completed $600M Las Vegas Convention Center renovation consolidates all NAB Show programming under one roof for the first time, with a free Vegas Loop tunnel cutting venue transit to two minutes."
+excerpt: "A completed $600M Las Vegas Convention Center renovation consolidates all NAB Show programming under one roof for the first time in the show's history."
 image: "https://radioink.com/wp-content/uploads/2025/04/Screen-Shot-2025-04-10-at-1.52.32-PM-e1744307591274.png"
 image_alt: "April Carty-Sipp NAB Show 2026 radio guide"
 image_credit: "Radio Ink"

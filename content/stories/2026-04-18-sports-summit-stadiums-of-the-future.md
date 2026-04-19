@@ -8,7 +8,7 @@ source_urls:
   - "https://www.nab.org/documents/newsRoom/pressRelease.asp?id=7399"
   - "https://www.sportsvideo.org/2026/04/15/nab-2026-nab-show-2026-to-feature-expanded-ai-sports-and-creator-economy-programming/"
 companies: ["AWS", "San Francisco 49ers", "NAB"]
-excerpt: "The Sports Summit's 'Stadiums of the Future' session features AWS and the San Francisco 49ers on how next-generation venues generate data and feeds that affect broadcast production."
+excerpt: "The Sports Summit's 'Stadiums of the Future' session features AWS and the 49ers on how next-generation venues generate data and feeds that affect broadcast production."
 ---
 
 The expanded [NAB Sports Summit](https://www.nab.org/documents/newsRoom/pressRelease.asp?id=7399) includes paired sessions on fan experience: "The Fan Experience Reimagined" and "Stadiums of the Future: Tech-Driven Venue Experiences." Together they examine how personalization, immersive production, and venue-level connectivity infrastructure converge across physical and digital environments. Confirmed participants include Shelby Williams of AWS and Laura "LJ" Johnson of the San Francisco 49ers, bringing cloud infrastructure and team-side venue technology perspectives to the same stage.

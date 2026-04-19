@@ -8,7 +8,7 @@ source_urls:
   - "http://nabstreamingsummit.com/"
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/streaming-summit/"
 companies: ["Akamai", "AWS", "Elecard", "Tiledmedia", "MediaKind", "Altman Solon"]
-excerpt: "A dedicated Streaming Summit slot puts operational AI inside encoding, quality control, and delivery workflows — separate from the chatbot discovery and AI governance sessions."
+excerpt: "A Streaming Summit session puts operational AI inside encoding, QC, and delivery workflows — separate from the chatbot discovery and AI governance sessions."
 image: "https://nabstreamingsummit.com/wp-content/uploads/2025/08/2026-Summit-Main-Image-V1.jpg"
 image_alt: "NAB Streaming Summit 2026 AI in the video stack session"
 image_credit: "nabstreamingsummit.com"

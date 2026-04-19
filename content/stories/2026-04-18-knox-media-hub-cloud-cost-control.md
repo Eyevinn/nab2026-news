@@ -7,7 +7,7 @@ tags: ["cloud", "production", "streaming", "storage"]
 source_urls:
   - "https://www.knoxmediahub.com/blog/nab-2026-speed-cost-control-amp-cloud-ownership-what-media-companies-really-need-now"
 companies: ["Knox Media Hub", "Paramount", "Warner Bros. Discovery", "Banijay", "All3Media"]
-excerpt: "Knox Media Hub analyst Clara Aler argues NAB 2026's headline themes all reduce to one pressure: speed, cost visibility, and ownership over cloud infrastructure rather than unconstrained adoption."
+excerpt: "Knox Media Hub analyst Clara Aler argues NAB 2026's headline themes reduce to one pressure: speed, cost visibility, and ownership over cloud infrastructure."
 image: "https://images.squarespace-cdn.com/content/v1/60f1623bae80bf35b32245a1/d8cb7e3f-430d-492e-b292-68ae3e0b9f38/NAB+2026+Media+Supply+Chain+Automation"
 image_alt: "NAB 2026 Media Supply Chain Automation"
 image_credit: "Knox Media Hub"

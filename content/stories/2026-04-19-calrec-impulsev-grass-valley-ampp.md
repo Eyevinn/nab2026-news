@@ -8,7 +8,7 @@ source_urls:
   - "https://www.tvtechnology.com/production/calrec-and-grass-valley-unveil-impulsev-and-ampp-integration"
   - "https://www.sportsvideo.org/2026/03/13/nab-2026-calrec-to-showcase-ip-ecosystem-and-plethora-of-new-products/"
 companies: ["Calrec", "Grass Valley"]
-excerpt: "Calrec's ImPulseV virtual DSP software now runs inside Grass Valley's AMPP platform, enabling a single operator surface to manage audio and video in software-defined production workflows."
+excerpt: "Calrec's ImPulseV virtual DSP runs inside Grass Valley's AMPP platform, letting a single operator surface manage audio and video in software-defined production."
 image: "https://cdn.mos.cms.futurecdn.net/y3u8GDyvRwKDzDCwMwSP5L.png"
 image_alt: "Calrec ImPulseV and Grass Valley AMPP integration"
 image_credit: "TV Technology"

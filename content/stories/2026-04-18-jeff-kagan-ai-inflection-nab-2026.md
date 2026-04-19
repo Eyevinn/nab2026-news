@@ -8,7 +8,7 @@ source_urls:
   - "https://www.einpresswire.com/article/903553319/what-to-expect-at-the-2026-nab-show-industry-analyst-jeff-kagan"
   - "https://nationaltoday.com/us/ga/atlanta/news/2026/04/03/industry-analyst-jeff-kagan-previews-2026-nab-show/"
 companies: ["AT&T", "Verizon", "T-Mobile", "AWS", "Apple", "Google Cloud", "NVIDIA"]
-excerpt: "Independent analyst Jeff Kagan argues the 2026 NAB Show marks an AI inflection comparable to the commercial internet shift, with carriers and cloud giants now racing to produce clear strategies."
+excerpt: "Analyst Jeff Kagan argues NAB 2026 marks an AI inflection comparable to the commercial internet shift, with carriers and cloud providers racing to produce clear strategies."
 ---
 
 Independent telecom and media analyst [Jeff Kagan published a pre-show preview](https://www.einpresswire.com/article/903553319/what-to-expect-at-the-2026-nab-show-industry-analyst-jeff-kagan) arguing that NAB 2026 marks a decisive AI inflection point comparable to the commercial internet wave of the 1990s. Kagan writes that AI "has quickly moved onto the radar of investors, customers, and employees. It is transforming the world as we know it, and doing so at an unprecedented pace." He expects the show to produce clearer competitive strategies from carriers including AT&T, Verizon, and T-Mobile, as well as from cloud infrastructure providers AWS, Google Cloud, and NVIDIA.

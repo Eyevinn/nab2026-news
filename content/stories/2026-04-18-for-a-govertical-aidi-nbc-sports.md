@@ -9,7 +9,7 @@ source_urls:
   - "https://www.tvtechnology.com/production/for-a-to-feature-software-defined-ai-driven-solutions-at-2026-nab-show"
   - "https://www.provideocoalition.com/govertical-aidi-real-time-916-autocropping-at-nab-2026/"
 companies: ["FOR-A", "NBC Sports"]
-excerpt: "FOR-A's GoVertical AiDi converts 16:9 broadcast feeds to 9:16 in real time on-device via NVIDIA RTX 5090/5070 Ti GPUs — now in commercial deployment at NBC Sports."
+excerpt: "FOR-A's GoVertical AiDi converts 16:9 feeds to 9:16 in real time on-device via NVIDIA RTX 5090/5070 Ti GPUs, now in commercial deployment at NBC Sports."
 image: "https://www.for-a.com/assets/news_imgs/viztrick_AiDi_Crop_FigureSkate.jpg"
 image_alt: "FOR-A GoVertical AiDi real-time 9:16 autocropping demo"
 image_credit: "FOR-A"

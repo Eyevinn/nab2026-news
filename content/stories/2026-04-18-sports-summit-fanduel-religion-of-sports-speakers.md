@@ -9,7 +9,7 @@ source_urls:
   - "https://www.nabshow.com/press-release/next-level-creators-top-media-leaders-storytelling-legends-and-ai-step-into-the-spotlight-as-2026-nab-show-unveils-latest-speakers-sessions/"
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/streaming-summit/"
 companies: ["FanDuel", "Religion of Sports", "San Francisco 49ers", "Amazon Prime Video", "DAZN", "Warner Bros. Discovery", "NASCAR", "TwelveLabs"]
-excerpt: "FanDuel marks the first sportsbook on the Summit stage as Religion of Sports CEO Ameeth Sankaran, 49ers exec Laura Johnson, and DAZN's Sandeep Tiku join the four-day program."
+excerpt: "FanDuel marks the first sportsbook on the Sports Summit stage as Religion of Sports CEO Ameeth Sankaran, 49ers exec Laura Johnson, and DAZN's Sandeep Tiku join."
 ---
 
 The [NAB Show Sports Summit](https://www.globenewswire.com/news-release/2026/02/27/3246588/0/en/2026-NAB-Show-Expands-Sports-Summit-to-Four-Days-Spotlighting-the-New-Era-of-Sports-Media-and-Entertainment.html) speaker lineup adds a range of voices that reflect how broadly sports media has expanded beyond traditional broadcast. FanDuel is confirmed on the summit stage — the first time a major sportsbook operator has been included — alongside sports-betting and data-rights sessions that treat wagering infrastructure as a mainstream distribution topic.

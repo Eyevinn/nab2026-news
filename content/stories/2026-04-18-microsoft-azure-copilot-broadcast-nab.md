@@ -7,7 +7,7 @@ tags: ["ai", "cloud", "production", "broadcast"]
 source_urls:
   - "https://www.tvtechnology.com/events/microsoft-previews-2026-nab-show-trends-plans"
 companies: ["Microsoft", "Avid", "Adobe", "Evertz", "Vizrt", "Ross Video"]
-excerpt: "Microsoft's Simon Crownshaw says Azure, AI Copilot, and PlayReady DRM underpin live workflows for the NBA, NFL, and Premier League — and Copilot is a deployable tool, not a roadmap item."
+excerpt: "Microsoft's Simon Crownshaw says Azure AI Copilot underpins live workflows for the NBA, NFL, and Premier League — and is a deployable tool, not a roadmap item."
 ---
 
 [Microsoft is signalling a higher-profile role at NAB 2026](https://www.tvtechnology.com/events/microsoft-previews-2026-nab-show-trends-plans) after years as a behind-the-scenes infrastructure provider. Simon Crownshaw, Worldwide Media and Entertainment Director at Microsoft, told TV Technology the company will demonstrate how Azure, AI Copilot, and PlayReady DRM underpin origination and distribution workflows for major sports rights holders including the NBA, NFL, and Premier League at booth W1731 in the West Hall.

@@ -8,7 +8,7 @@ source_urls:
   - "https://tvnewscheck.com/tech/article/road-to-nab-agentic-ai-poised-to-speed-up-news-production/"
   - "https://tvnewscheck.com/tech/article/mimir-to-showcase-new-cloud-native-editing-ai-tools-at-nab-2026/"
 companies: ["Moments Lab", "Tedial", "Mimir", "Cuez", "Avid"]
-excerpt: "A TVNewsCheck analysis finds Moments Lab, Tedial, Mimir, Cuez, and Avid are all presenting deployable agentic AI for newsroom workflows — not roadmap demos — at NAB 2026."
+excerpt: "A TVNewsCheck analysis finds Moments Lab, Tedial, Mimir, Cuez, and Avid all presenting deployable agentic AI for newsroom workflows at NAB 2026."
 ---
 
 A [TVNewsCheck pre-show analysis](https://tvnewscheck.com/tech/article/road-to-nab-agentic-ai-poised-to-speed-up-news-production/) finds that the conversation around AI in newsroom production has crossed from demonstration into deployment. Multiple vendors at NAB 2026 are presenting agentic AI systems that can communicate story changes across multi-vendor production environments and automatically execute tasks — updating graphics, removing clips from rundowns — without waiting for operator input.

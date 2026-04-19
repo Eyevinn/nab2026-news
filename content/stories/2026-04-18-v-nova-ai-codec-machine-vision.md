@@ -7,7 +7,7 @@ tags: ["ai", "codec", "streaming", "cloud"]
 source_urls:
   - "https://v-nova.com/blog/three-ai-conversations-im-hoping-to-have-at-nab-2026/"
 companies: ["V-Nova"]
-excerpt: "V-Nova SVP Guendalina Cobianchi makes the case that SMPTE VC-6 hierarchical encoding and GPU-accelerated pipelines are prerequisites for AI-native media workflows."
+excerpt: "V-Nova's Guendalina Cobianchi argues SMPTE VC-6 hierarchical encoding and GPU-accelerated pipelines are prerequisites for AI-native media workflows."
 image: "https://v-nova.com/wp-content/uploads/2026/04/1200x630.png"
 image_alt: "V-Nova NAB 2026 AI conversations"
 image_credit: "V-Nova"

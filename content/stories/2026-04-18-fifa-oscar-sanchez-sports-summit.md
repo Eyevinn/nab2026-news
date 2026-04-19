@@ -8,7 +8,7 @@ source_urls:
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/sports-summit/"
   - "https://www.nab.org/documents/newsRoom/pressRelease.asp?id=7399"
 companies: ["FIFA", "NAB"]
-excerpt: "Oscar Sanchez, FIFA's Head of Host Broadcast Production, will speak at the Sports Summit on April 19 — the first senior FIFA production executive confirmed for the NAB stage."
+excerpt: "Oscar Sanchez, FIFA's Head of Host Broadcast Production, will speak at the Sports Summit on April 19 — the first senior FIFA production executive confirmed at NAB."
 ---
 
 [Oscar Sanchez, FIFA's Head of Host Broadcast Production](https://www.nabshow.com/las-vegas/conferences-and-workshops/sports-summit/), is confirmed for the Sports Summit session "The World Cup: Broadcasting the Biggest Event in Sports" on Sunday April 19 at 5:05–5:30 p.m. in the West Hall Sports Theater. The 2026 FIFA World Cup runs June–July across the United States, Canada, and Mexico — placing it squarely in the production planning cycle for every broadcaster and technology vendor at NAB this week.

@@ -8,7 +8,7 @@ source_urls:
   - "https://www.nabshow.com/press-release/global-nextgen-tv-takes-center-stage-at-2026-nab-show-with-brazil-minister-of-communications-and-fcc-commissioner/"
   - "https://www.tvtechnology.com/platform/broadcast/broadcasters-launch-initiative-for-low-cost-nextgen-tv-converter-boxes"
 companies: ["Pearl TV", "ATSC", "FCC"]
-excerpt: "Brazil's Communications Minister and FCC Commissioner Olivia Trusty will share a NAB stage on April 20 as Pearl TV launches its NextGen TV Converter Box Program."
+excerpt: "Brazil's Communications Minister and FCC Commissioner Olivia Trusty will share a NAB stage on April 20 as Pearl TV launches its NextGen TV Converter Box initiative."
 image: "https://www.nabshow.com/wp-content/uploads/2025/03/lv-press-release-og.png"
 image_alt: "NAB Show 2026 NextGen TV global session"
 image_credit: "NAB Show"

@@ -8,7 +8,7 @@ source_urls:
   - "https://news.panasonic.com/global/press/en260415-3"
   - "https://na.panasonic.com/news/panasonic-showcases-ip-and-it-driven-production-solutions-for-broadcast-and-live-events-at-2026-nab-show"
 companies: ["Panasonic", "NEP Group"]
-excerpt: "Panasonic's KAIROS IT/IP switcher now has certified interoperability with NEP Group's software orchestration platform, enabling unified control over switching, routing, and resource allocation."
+excerpt: "Panasonic's KAIROS switcher achieves certified interoperability with NEP Group's orchestration platform, enabling unified control over switching, routing, and resource allocation."
 image: "https://news.panasonic.com/uploads/tmg_block_page/cover_image/18595/l-en260415-3-1.jpg"
 image_alt: "Panasonic KAIROS and NEP Platform integration at NAB 2026"
 image_credit: "Panasonic"

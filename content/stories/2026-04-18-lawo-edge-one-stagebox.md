@@ -7,7 +7,7 @@ tags: ["ip-video", "audio", "broadcast", "production"]
 source_urls:
   - "https://www.tvtechnology.com/infrastructure/ip-networking/lawo-to-launch-edge-one-converged-video-and-audio-stagebox-at-2026-nab-show"
 companies: ["Lawo"]
-excerpt: "Edge One is a 1RU SMPTE ST 2110 stagebox with eight bi-directional SDI connectors, MADI over SFP, PoE++ power, and swappable audio interface modules at up to 25 Gbps."
+excerpt: "Edge One is a 1RU ST 2110 stagebox with eight bi-directional SDI connectors, MADI over SFP, PoE++ power, and swappable audio interface modules at up to 25 Gbps."
 ---
 
 [Lawo is launching Edge One at NAB 2026](https://www.tvtechnology.com/infrastructure/ip-networking/lawo-to-launch-edge-one-converged-video-and-audio-stagebox-at-2026-nab-show) from Booth C2108, a 1RU stagebox that converges video and audio connectivity into a single device for SMPTE ST 2110 workflows. The unit includes eight bi-directional HD-BNC SDI connectors, four HDMI outputs, SFP ports for MADI I/O, a PoE++ RJ45 port, USB-C audio, and bandwidth capacity of up to 25 Gbps.

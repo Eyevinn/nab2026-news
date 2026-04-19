@@ -8,7 +8,7 @@ source_urls:
   - "https://www.tvtechnology.com/production/liveu-to-showcase-expanded-ip-video-ecosystem-at-2026-nab-show"
   - "https://get.liveu.tv/nab-2026/"
 companies: ["LiveU"]
-excerpt: "LiveU's LU900Q pairs native IQ connectivity, eSIM, optimized 5G modems, a MIMO antenna array, and 4:2:2 encoding with dual-camera support for news and sports field work."
+excerpt: "LiveU's LU900Q pairs native IQ connectivity, eSIM, optimized 5G modems, a MIMO antenna array, and 4:2:2 encoding with dual-camera support for field work."
 ---
 
 [LiveU is presenting its broadest IP-video ecosystem to date at NAB 2026](https://www.tvtechnology.com/production/liveu-to-showcase-expanded-ip-video-ecosystem-at-2026-nab-show) (booth N1740), anchored by the new LU900Q intelligent production unit. The device combines native LiveU IQ connectivity, advanced eSIM technology, optimized 5G modems, a MIMO antenna array, and 4:2:2 encoding with dual-camera support — targeting news and live sports field teams replacing legacy contribution hardware.

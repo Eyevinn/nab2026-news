@@ -7,7 +7,7 @@ tags: ["ai", "streaming", "production", "broadcast"]
 source_urls:
   - "https://www.tvtechnology.com/platform/streaming/witbe-unveil-ai-native-video-streaming-test-monitoring-infrastructure-at-2026-nab-show"
 companies: ["Witbe"]
-excerpt: "Witbe's new platform replaces scripted test automation with natural language commands across real devices and real networks, with AI root-cause analysis built in."
+excerpt: "Witbe replaces scripted test automation with natural language commands across real devices and networks, with AI root-cause analysis built in."
 ---
 
 [Witbe is demonstrating a fully AI-native video streaming test and monitoring infrastructure at NAB 2026](https://www.tvtechnology.com/platform/streaming/witbe-unveil-ai-native-video-streaming-test-monitoring-infrastructure-at-2026-nab-show) (booth W2051) that discards traditional script-based automation in favor of plain-language commands executed in real time across real devices and live networks.

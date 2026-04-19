@@ -8,7 +8,7 @@ source_urls:
   - "https://www.streamingmedia.com/PressRelease/Telestream-Introduces-Pulse-a-Software-Defined-Test-and-Measurement-Platform-for-IP-Production-Workflows_57554.aspx"
   - "https://www.sportsvideo.org/2026/04/10/nab-2026-telestream-introduces-pulse-software-defined-monitoring-platform/"
 companies: ["Telestream", "Grass Valley"]
-excerpt: "Telestream Pulse is a software-defined T&M platform for ST 2110 environments; the companion UP service adds cloud-native ingest and orchestration, both now inside Grass Valley AMPP."
+excerpt: "Telestream Pulse is a software-defined T&M platform for ST 2110; the UP service adds cloud-native ingest and orchestration, both now integrated with Grass Valley AMPP."
 ---
 
 [Telestream publicly debuted Pulse at NAB 2026](https://www.streamingmedia.com/PressRelease/Telestream-Introduces-Pulse-a-Software-Defined-Test-and-Measurement-Platform-for-IP-Production-Workflows_57554.aspx), a software-defined test and measurement platform built for SMPTE ST 2110 IP environments. Pulse provides multi-user dashboards combining waveform monitors, vectorscopes, audio meters, and alarm logs in a single software layer. Telestream is at West Hall booth W1503.
