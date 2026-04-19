@@ -1,0 +1,23 @@
+# NAB 2026 Live
+
+> Twice-daily AI-newsroom aggregator for NAB Show 2026 in Las Vegas (April 18–22, 2026). Floor announcements, summit coverage, and industry analyst commentary for people who can't attend.
+
+## Coverage
+
+- Floor news: product launches, press releases, vendor announcements
+- Streaming Summit (April 20–21): sessions on streaming economics, AI workflows, live sports
+- Sports Summit (April 19–22): broadcast production, stadium tech, sports rights
+- Online buzz: analyst commentary and trending topics
+
+## Site structure
+
+- Homepage: https://nab2026.apps.osaas.io/
+- Stories: https://nab2026.apps.osaas.io/story/{slug}
+- Topic pages: https://nab2026.apps.osaas.io/topic/{tag}
+- RSS feed: https://nab2026.apps.osaas.io/feed.xml
+- Sitemap: https://nab2026.apps.osaas.io/sitemap.xml
+- About: https://nab2026.apps.osaas.io/about
+
+## Editorial
+
+Every story links to its primary source. No invented quotes or statistics. AI-drafted by a Claude Code agent team and published with a newsroom byline. Source code: https://github.com/Eyevinn/nab2026-news

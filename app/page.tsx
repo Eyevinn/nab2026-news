@@ -3,7 +3,7 @@ import { getAllStories, formatDate } from "@/lib/stories";
 import { getBrief } from "@/lib/brief";
 import { PromoSidebar } from "./promos";
 import { HeroArt, TopicArt } from "./visuals";
-import { SITE_URL, itemListJsonLd, jsonLdScript } from "@/lib/seo";
+import { SITE_URL, collectionPageJsonLd, itemListJsonLd, jsonLdScript } from "@/lib/seo";
 
 export const dynamic = "force-static";
 
@@ -27,7 +27,15 @@ export default async function Home({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: jsonLdScript(itemListJsonLd(listedForSchema, `${SITE_URL}/`))
+          __html: jsonLdScript([
+            collectionPageJsonLd({
+              url: `${SITE_URL}/`,
+              name: "NAB 2026 Live",
+              description:
+                "Twice-daily news aggregator for NAB Show 2026 in Las Vegas — floor announcements, summit coverage, and industry commentary."
+            }),
+            itemListJsonLd(listedForSchema, `${SITE_URL}/`)
+          ])
         }}
       />
       <section className="hero hero-with-art">
