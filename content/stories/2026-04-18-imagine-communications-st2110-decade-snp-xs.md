@@ -7,7 +7,7 @@ tags: ["ip-video", "playout", "broadcast", "production"]
 source_urls:
   - "https://content-technology.com/nabshow/imagine-builds-on-a-decade-of-st-2110-leadership/"
 companies: ["Imagine Communications"]
-excerpt: "Imagine Communications debuts the compact SNP-XS IP processor and Linux-based XVR playout engines at NAB, marking a decade of ST 2110 advocacy with new hardware."
+excerpt: "Imagine Communications debuts the SNP-XS IP processor and Linux-based XVR playout engines at NAB, marking a decade of ST 2110 advocacy with new hardware."
 image: "https://content-technology.com/wp-content/uploads/2026/04/ImagineCommunications_SNP-XS_front.png"
 image_alt: "Imagine Communications SNP-XS compact IP processor"
 ---

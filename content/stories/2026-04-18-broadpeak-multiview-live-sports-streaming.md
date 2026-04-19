@@ -8,7 +8,7 @@ source_urls:
   - "https://www.tvtechnology.com/infrastructure/cloud/broadpeak-launches-multiview-for-live-sports-at-2026-nab-show"
   - "https://www.sportsvideo.org/2026/04/16/nab-2026-preview-west-hall-everything-you-need-to-know-heading-into-the-show/"
 companies: ["Broadpeak", "Parks Associates"]
-excerpt: "Broadpeak's Multiview composes live sport feeds at the packager stage rather than the encoder, reducing load and sending one stream to all devices regardless of screen count."
+excerpt: "Broadpeak's Multiview composes live sport feeds at the packager stage rather than the encoder, reducing load and sending one stream to all devices."
 ---
 
 [Broadpeak is launching Multiview at NAB 2026](https://www.tvtechnology.com/infrastructure/cloud/broadpeak-launches-multiview-for-live-sports-at-2026-nab-show), a system that enables multiple simultaneous live sports feeds on a single screen. The technical distinction from existing approaches is where the composition happens: instead of combining feeds at the encoder — which multiplies encoder instances per viewer — Broadpeak assembles the video packages at the packager stage and delivers a single stream to any device, regardless of how many simultaneous feeds the user has selected.
