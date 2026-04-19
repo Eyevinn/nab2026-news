@@ -1,5 +1,5 @@
 ---
-title: "Sports Summit pairs AWS and 49ers on stadium tech as a broadcast production topic"
+title: "Sports Summit pairs AWS and 49ers on stadium tech as a broadcast topic"
 slug: "sports-summit-stadiums-of-the-future"
 date: "2026-04-18T21:15:00Z"
 category: "floor"

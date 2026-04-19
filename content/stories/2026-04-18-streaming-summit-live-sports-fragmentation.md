@@ -1,5 +1,5 @@
 ---
-title: "Streaming Summit confronts fragmented sports rights across broadcast, SVOD, and sportsbook"
+title: "Streaming Summit confronts fragmented sports rights across broadcast and SVOD"
 slug: "streaming-summit-live-sports-fragmentation"
 date: "2026-04-18T21:20:00Z"
 category: "floor"

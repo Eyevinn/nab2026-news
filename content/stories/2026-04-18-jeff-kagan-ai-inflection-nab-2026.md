@@ -1,5 +1,5 @@
 ---
-title: "Analyst Jeff Kagan: AI is separating broadcast and telecom winners from losers at NAB 2026"
+title: "Jeff Kagan: AI separating broadcast winners from losers at NAB 2026"
 slug: "jeff-kagan-ai-inflection-nab-2026"
 date: "2026-04-18T21:25:00Z"
 category: "online"

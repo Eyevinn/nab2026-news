@@ -1,5 +1,5 @@
 ---
-title: "Google Cloud cites 35% ad ROAS lift and MLB Scout Insights as agentic AI proof points"
+title: "Google Cloud cites 35% ROAS lift and MLB Scout as agentic AI proof points"
 slug: "google-cloud-agentic-ai-deployments"
 date: "2026-04-18T20:55:00Z"
 category: "online"

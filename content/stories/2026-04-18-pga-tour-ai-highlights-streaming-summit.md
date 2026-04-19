@@ -1,5 +1,5 @@
 ---
-title: "PGA TOUR generates 7,000 AI highlight clips weekly — case study at Streaming Summit"
+title: "PGA TOUR generates 7,000 AI highlight clips weekly: Streaming Summit case study"
 slug: "pga-tour-ai-highlights-streaming-summit"
 date: "2026-04-18T15:05:00Z"
 category: "floor"

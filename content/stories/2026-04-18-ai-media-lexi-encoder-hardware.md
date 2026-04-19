@@ -1,5 +1,5 @@
 ---
-title: "AI-Media launches first new encoder hardware in a decade with LEXI Text and Voice"
+title: "AI-Media launches first encoder hardware in a decade: LEXI Text and Voice"
 slug: "ai-media-lexi-encoder-hardware"
 date: "2026-04-18T20:35:00Z"
 category: "floor"

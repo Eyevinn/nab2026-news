@@ -1,5 +1,5 @@
 ---
-title: "LVCC's $600M renovation consolidates NAB 2026 into a single footprint for the first time"
+title: "LVCC's $600M renovation puts NAB 2026 in a single footprint for the first time"
 slug: "lvcc-600m-renovation-nab-consolidated-footprint"
 date: "2026-04-18T21:35:00Z"
 category: "online"

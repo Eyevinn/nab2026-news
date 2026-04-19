@@ -1,5 +1,5 @@
 ---
-title: "Streaming Summit adds AI-in-the-stack session covering encoding, QC, and delivery"
+title: "Streaming Summit adds AI-in-the-stack session on encoding, QC, and delivery"
 slug: "streaming-summit-ai-video-stack-session"
 date: "2026-04-18T21:10:00Z"
 category: "floor"

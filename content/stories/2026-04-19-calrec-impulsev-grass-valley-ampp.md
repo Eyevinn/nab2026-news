@@ -1,5 +1,5 @@
 ---
-title: "Calrec ImPulseV integrates with Grass Valley AMPP for unified audio-video production"
+title: "Calrec ImPulseV joins Grass Valley AMPP for unified audio-video production"
 slug: "calrec-impulsev-grass-valley-ampp"
 date: "2026-04-19T15:00:00Z"
 category: "floor"

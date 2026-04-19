@@ -1,5 +1,5 @@
 ---
-title: "Ross Video Ultrix routing frame hits 5,000 deployments; adds HighField AI graphics"
+title: "Ross Video Ultrix hits 5,000 deployments and gains HighField AI graphics"
 slug: "ross-video-ultrix-5000-highfield-ai"
 date: "2026-04-19T15:00:00Z"
 category: "floor"

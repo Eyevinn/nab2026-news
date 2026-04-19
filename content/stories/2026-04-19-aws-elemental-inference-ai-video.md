@@ -1,5 +1,5 @@
 ---
-title: "AWS launches Elemental Inference with automated vertical cropping and clip detection"
+title: "AWS Elemental Inference adds automated vertical cropping and clip detection"
 slug: "aws-elemental-inference-ai-video"
 date: "2026-04-19T15:00:00Z"
 category: "floor"
