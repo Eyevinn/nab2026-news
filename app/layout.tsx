@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { EventBanner, PromoFooter } from "./promos";
+import { LastUpdated } from "./LastUpdated";
+import { getLastUpdatedISO } from "@/lib/stories";
 import {
   jsonLdScript,
   organizationJsonLd,
@@ -60,6 +62,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const lastUpdatedISO = getLastUpdatedISO();
   return (
     <html lang="en">
       <head>
@@ -113,6 +116,9 @@ export default function RootLayout({
               >
                 Source on GitHub
               </a>
+            </p>
+            <p className="muted">
+              Last updated <LastUpdated iso={lastUpdatedISO} />
             </p>
             <p className="muted">
               Twice-daily aggregation by a Claude Code agent team running on{" "}

@@ -66,6 +66,11 @@ export function getAllTags(): { tag: string; count: number }[] {
     .sort((a, b) => b.count - a.count);
 }
 
+export function getLastUpdatedISO(): string {
+  const stories = readAll();
+  return stories[0]?.date ?? new Date().toISOString();
+}
+
 export function formatDate(iso: string): string {
   const d = new Date(iso);
   return d.toLocaleString("en-US", {
