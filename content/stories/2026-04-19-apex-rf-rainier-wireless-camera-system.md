@@ -8,7 +8,7 @@ source_urls:
   - "https://www.tvtechnology.com/production/apex-rf-to-feature-new-rainier-wireless-camera-transmission-system-at-2026-nab-show"
   - "https://www.newsshooter.com/2026/04/13/apex-rf-rainier-a-next-generation-wireless-live-camera-rf-system/"
 companies: ["Apex-RF"]
-excerpt: "RAINIER delivers 4K HDR at under 50ms latency over Wi-Fi 7 across 16 channels in the 5–7.3 GHz band, with native SMPTE ST 2110 output and multi-vendor intercom."
+excerpt: "RAINIER delivers 4K HDR at under 50ms latency over Wi-Fi 7 across 16 channels in the 5–7.3 GHz band, with native ST 2110 output and multi-vendor intercom."
 ---
 
 [Apex-RF launched RAINIER at NAB 2026](https://www.tvtechnology.com/production/apex-rf-to-feature-new-rainier-wireless-camera-transmission-system-at-2026-nab-show), a wireless camera transmission system delivering 4K HDR video at under 50 milliseconds latency via Wi-Fi 7 across the 5–7.3 GHz band with 16 channels. The system is available now and on show at Central Hall booth C5613.

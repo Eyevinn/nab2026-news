@@ -7,7 +7,7 @@ tags: ["virtual-studio", "production", "broadcast", "ai"]
 source_urls:
   - "https://tmbroadcast.com/highlights-nab-show-2026/"
 companies: ["Brainstorm"]
-excerpt: "Brainstorm released Suite 7 at NAB 2026, adding 360-degree output to InfinitySet, improved CG automation in Edison, and better third-party interoperability for Aston."
+excerpt: "Brainstorm released Suite 7 at NAB 2026, adding 360-degree output to InfinitySet, improved CG automation in Edison, and better interoperability for Aston."
 image: "https://tmbroadcast.com/wp-content/uploads/2026/04/nab-show_2025-1.jpg"
 image_alt: "NAB Show 2026 exhibitor highlights"
 image_credit: "TM Broadcast International"

@@ -7,7 +7,7 @@ tags: ["ai", "streaming", "cloud", "distribution"]
 source_urls:
   - "https://aijourn.com/quickplays-triple-play-of-new-customers-products-and-partnerships-set-to-dominate-nab-2026/"
 companies: ["Quickplay", "Gray Media", "Television New Zealand"]
-excerpt: "Quickplay debuted Social Signals at NAB 2026, an AI tool that turns trending moments into social clips in minutes, while announcing Gray Media and TVNZ as new customers."
+excerpt: "Quickplay debuted Social Signals at NAB 2026, an AI tool that turns trending moments into social clips in minutes, with Gray Media and TVNZ as new customers."
 ---
 
 [Streaming platform Quickplay announced Social Signals at NAB Show 2026](https://aijourn.com/quickplays-triple-play-of-new-customers-products-and-partnerships-set-to-dominate-nab-2026/), an AI product that identifies trending cultural moments and matches them with relevant content library assets to generate social-ready vertical clips. The system handles metadata enrichment, moment detection, smart verticalization, and multi-platform publishing, compressing a workflow that typically takes days into minutes.

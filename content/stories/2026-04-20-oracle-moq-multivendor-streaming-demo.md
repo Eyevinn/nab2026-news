@@ -9,7 +9,7 @@ source_urls:
   - "https://www.wowza.com/blog/wowza-demos-ai-workflows-at-nab-show-2026"
   - "https://broadpeak.tv/blog/joint-demos-at-nab-show-2026-for-video-streaming"
 companies: ["Oracle", "Ateme", "Broadpeak", "Wowza", "Bitmovin", "Cloudflare"]
-excerpt: "Oracle and five partners demonstrated live multi-vendor interoperability over the MoQ (Media over QUIC) protocol at NAB 2026, the first confirmed public demo of cross-vendor MoQT operation."
+excerpt: "Oracle and five partners ran the first confirmed public cross-vendor MoQ (Media over QUIC) interoperability demo at NAB 2026."
 ---
 
 [Oracle is running a live multi-vendor demonstration of Media over QUIC (MoQ) streaming at NAB 2026](https://www.sportsvideo.org/2026/04/19/nab-2026-oracle-and-partners-to-demo-moq-based-streaming-ecosystem/) using its Oracle Video @ Edge (OVE) platform as a shared MoQT relay network. The demo involves Ateme handling real-time encoding, with Broadpeak, Bitmovin, and Wowza — partnering with Cloudflare — each connecting independently to the same relay fabric. If the live demonstration holds, it is the first confirmed public multi-vendor MoQ workflow operating at a major trade show.

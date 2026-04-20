@@ -8,7 +8,7 @@ source_urls:
   - "https://www.tvtechnology.com/production/clear-com-to-showcase-expanded-communications-ecosystem-at-2026-nab-show"
   - "https://www.sportsvideo.org/2026/04/14/nab-2026-clear-com-to-demonstrate-expanded-intercom-ecosystem/"
 companies: ["Clear-Com"]
-excerpt: "Clear-Com's FreeSpeak Icon beltpack won a NAB Best of Show award; the company also launched a 4-channel HelixNet beltpack for complex multi-team live productions."
+excerpt: "Clear-Com's FreeSpeak Icon beltpack won a NAB Best of Show award; the company also launched a 4-channel HelixNet beltpack for multi-team live productions."
 image: "https://cdn.mos.cms.futurecdn.net/VThbyDUdWLx8QzST3fVCw6.jpg"
 image_alt: "Clear-Com FreeSpeak Icon beltpack NAB 2026"
 image_credit: "Clear-Com"

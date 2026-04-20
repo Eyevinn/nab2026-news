@@ -7,7 +7,7 @@ tags: ["atsc3", "broadcast", "production", "distribution"]
 source_urls:
   - "https://www.tvtechnology.com/platform/broadcast/nab-show-2026-trivenis-new-streamscope-analyzer-to-bridge-isdb-tb-and-tv-3-0-in-brazil"
 companies: ["Triveni Digital"]
-excerpt: "Triveni Digital's StreamScope MT-70 gives Brazilian broadcasters a single MPEG analyzer that monitors both ISDB-Tb legacy signals and the incoming TV 3.0 standard simultaneously."
+excerpt: "Triveni Digital's StreamScope MT-70 gives Brazilian broadcasters a single analyzer covering both ISDB-Tb legacy signals and the incoming TV 3.0 standard."
 image: "https://cdn.mos.cms.futurecdn.net/hVbD5UypdDq5KAukhLUq3a.png"
 image_alt: "Triveni Digital StreamScope MT-70 ISDB-Tb analyzer"
 image_credit: "Credit: Triveni Digital"

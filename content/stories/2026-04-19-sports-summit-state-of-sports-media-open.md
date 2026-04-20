@@ -8,7 +8,7 @@ source_urls:
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/sports-summit/"
   - "https://tvnewscheck.com/business/article/2026-nab-show-expands-sports-summit-to-four-days/"
 companies: ["Genius Sports", "Utah Jazz", "Oklahoma City Thunder", "Dolby"]
-excerpt: "The Sports Summit's opening session on April 19 assembled Genius Sports, the Utah Jazz, and the Oklahoma City Thunder for a 45-minute market overview on rights, reach, and revenue."
+excerpt: "The Sports Summit's opening session assembled Genius Sports, Utah Jazz, and Oklahoma City Thunder for a 45-minute overview on rights, reach, and revenue."
 image: "https://www.nabshow.com/wp-content/uploads/2026/02/sports-summit_feature-image-1024x536.jpg"
 image_alt: "NAB Show 2026 Sports Summit opening session"
 image_credit: "NAB Show"

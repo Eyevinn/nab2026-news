@@ -8,7 +8,7 @@ source_urls:
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/sports-summit/"
   - "https://www.nab.org/documents/newsRoom/pressRelease.asp?id=7399"
 companies: ["International Cricket Council", "Dolby", "Deloitte"]
-excerpt: "International Cricket Council CEO Sanjog Gupta joins the NAB Sports Summit, representing one of streaming's largest live-event distributions — 72 million concurrent viewers during the ICC T20 World Cup."
+excerpt: "ICC CEO Sanjog Gupta joins the NAB Sports Summit representing one of streaming's largest platforms — 72 million viewers watched the ICC T20 World Cup."
 image: "https://www.nabshow.com/wp-content/uploads/2026/02/sports-summit_feature-image-1024x536.jpg"
 image_alt: "NAB Show Sports Summit 2026"
 image_credit: "NAB Show"

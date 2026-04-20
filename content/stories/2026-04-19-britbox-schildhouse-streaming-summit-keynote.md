@@ -8,7 +8,7 @@ source_urls:
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/streaming-summit/"
   - "https://nabstreamingsummit.com/"
 companies: ["BBC Studios", "BritBox"]
-excerpt: "Robert Schildhouse, CEO of Direct-to-Consumer at BBC Studios, delivers the opening keynote of the 2026 NAB Streaming Summit on April 20 — the first BritBox executive to headline the Summit opener."
+excerpt: "Robert Schildhouse, BBC Studios' Direct-to-Consumer CEO, opens the 2026 NAB Streaming Summit keynote on April 20 — the first BritBox leader to headline."
 image: "https://nabstreamingsummit.com/wp-content/uploads/2025/08/2026-Summit-Main-Image-V1.jpg"
 image_alt: "NAB Show Streaming Summit 2026 promotional banner"
 image_credit: "nabstreamingsummit.com"

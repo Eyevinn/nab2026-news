@@ -7,7 +7,7 @@ tags: ["storage", "production", "post", "ai"]
 source_urls:
   - "https://www.storagenewsletter.com/2026/04/20/nab-show-2026-promise-technology-to-unveil-ai-optimized-storage-solutions/"
 companies: ["Promise Technology"]
-excerpt: "Promise Technology introduced the Pegasus5 Thunderbolt 5 family at NAB 2026, including the R12 Pro with ~6,000 MB/s throughput and AI-focused NVMe server options."
+excerpt: "Promise Technology's Pegasus5 Thunderbolt 5 family launched at NAB 2026, led by the R12 Pro with ~6,000 MB/s throughput and AI-focused NVMe server options."
 image_alt: "Promise Technology Pegasus5 Thunderbolt 5 NAB 2026"
 image_credit: "Promise Technology"
 ---

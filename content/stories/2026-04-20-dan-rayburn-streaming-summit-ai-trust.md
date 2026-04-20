@@ -8,7 +8,7 @@ source_urls:
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/streaming-summit/"
   - "https://www.mediaplaynews.com/streaming-summit-returns-to-nab-april-20-21-with-eye-on-sports-bundling-ads-and-ai/"
 companies: ["NAB"]
-excerpt: "Streaming Summit chairman Dan Rayburn opened the two-day summit on April 20 by framing AI trust — not AI capability — as the defining challenge for streaming operators in 2026."
+excerpt: "Streaming Summit chair Dan Rayburn framed AI trust — not AI capability — as the defining challenge for streaming operators in his April 20 opening."
 image: "https://www.nabshow.com/wp-content/uploads/2025/11/streamingSummit_2025_4.jpg"
 image_alt: "NAB Show Streaming Summit 2026 session in West Hall"
 image_credit: "NAB Show"
