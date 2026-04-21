@@ -1,5 +1,5 @@
 ---
-title: "NAB creator panel: parasocial bond between creator and audience resists AI replacement"
+title: "NAB creator panel: the creator-audience bond resists AI replacement"
 slug: "creator-economy-panel-ai-cannot-replace-human-bond"
 date: "2026-04-20T23:35:00Z"
 category: "online"

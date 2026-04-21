@@ -1,5 +1,5 @@
 ---
-title: "Colorfront Transkoder 2026 adds Dolby Vision 2, Apple Vision Pro, and AI-assisted QC"
+title: "Colorfront Transkoder 2026 adds Dolby Vision 2 and AI-assisted QC"
 slug: "colorfront-transkoder-2026-dolby-vision-2"
 date: "2026-04-21T16:05:00Z"
 category: "floor"
@@ -7,7 +7,7 @@ tags: ["post", "ai", "hdr", "production"]
 source_urls:
   - "https://www.provideocoalition.com/nab-show-2026-day-2-hardware-streamlining-and-shifting-realities/"
 companies: ["Colorfront"]
-excerpt: "Transkoder 2026 runs on a new Linux-based engine with persistent execution mode, adds AI-assisted QC detection, Dolby Vision 2 grading support, and Apple Vision Pro integration."
+excerpt: "Transkoder 2026 ships a rebuilt Linux engine with persistent execution, AI-assisted QC detection, Dolby Vision 2 support, and Apple Vision Pro integration."
 ---
 
 [Colorfront debuted Transkoder 2026 at NAB](https://www.provideocoalition.com/nab-show-2026-day-2-hardware-streamlining-and-shifting-realities/), a significant update to its finishing and quality-control platform. The new version runs on a rebuilt Linux-based engine with persistent execution mode and enhanced APIs for automation, giving operators the ability to build more consistent and repeatable pipeline integrations than the previous version allowed.

@@ -1,5 +1,5 @@
 ---
-title: "Sinclair and ONE Media show ATSC 3.0 reaching TV, tablet, and mobile in single transmission"
+title: "Sinclair and ONE Media demo ATSC 3.0 delivering to TV, tablet, and mobile"
 slug: "sinclair-one-media-atsc3-floor-demo"
 date: "2026-04-21T15:30:00Z"
 category: "floor"
@@ -7,7 +7,7 @@ tags: ["atsc3", "broadcast", "distribution", "5g"]
 source_urls:
   - "https://www.tvtechnology.com/platform/broadcast/sinclair-and-one-media-technologies-outline-nextgen-tv-tech-plans-for-nab-show"
 companies: ["Sinclair", "ONE Media Technologies"]
-excerpt: "At the ATSC booth, Sinclair and ONE Media demonstrate a single ATSC 3.0 signal simultaneously delivered to TVs, tablets, and phones, while CEO Chris Ripley accepts an NAB engineering award."
+excerpt: "Sinclair and ONE Media demonstrate a single ATSC 3.0 signal reaching TVs, tablets, and phones simultaneously at the ATSC booth in Central Hall."
 ---
 
 [Sinclair and ONE Media Technologies are demonstrating](https://www.tvtechnology.com/platform/broadcast/sinclair-and-one-media-technologies-outline-nextgen-tv-tech-plans-for-nab-show) a live ATSC 3.0 transmission at the ATSC booth (Central Hall C1655) that simultaneously delivers to televisions, tablets, and mobile devices under the banner "Broadcast Once. Deliver Everywhere." The demo represents a practical proof of the standard's device-agnostic delivery promise — reaching screen types that legacy ATSC 1.0 could never address natively.

@@ -1,5 +1,5 @@
 ---
-title: "Lawo HOME Multiviewer monitors ST 2110, NDI, SRT, and JPEG XS from a single server"
+title: "Lawo HOME Multiviewer natively handles ST 2110, NDI, SRT, and JPEG XS"
 slug: "lawo-home-multiviewer-multi-protocol"
 date: "2026-04-21T15:50:00Z"
 category: "floor"
@@ -8,7 +8,7 @@ source_urls:
   - "https://tmbroadcast.com/highlights-nab-show-2026/"
   - "https://www.provideocoalition.com/nab-show-2026-day-2-hardware-streamlining-and-shifting-realities/"
 companies: ["Lawo"]
-excerpt: "The HOME Multiviewer is a server-based unit with ultra-low-latency processing that accepts ST 2110, NDI, SRT, and JPEG XS signals natively, targeting hybrid IP facilities."
+excerpt: "The HOME Multiviewer accepts ST 2110, NDI, SRT, and JPEG XS signals natively in a single low-latency server, targeting hybrid IP facilities."
 ---
 
 [Lawo is demonstrating the HOME Multiviewer at NAB 2026](https://tmbroadcast.com/highlights-nab-show-2026/), a server-based monitoring system with ultra-low-latency processing that natively ingests ST 2110, NDI, SRT, and JPEG XS signals in a single unit. The breadth of supported transport formats targets IP-native facilities and hybrid operations where signals arrive via multiple protocols — a configuration that has become common as broadcasters integrate cloud, remote production, and traditional SDI infrastructure in parallel.

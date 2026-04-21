@@ -69,7 +69,10 @@ const descriptions: Record<string, string> = {
     "Streaming monetization and revenue strategy news from NAB Show 2026. Stories examine subscription versus advertising-supported models, FAST channel economics, dynamic ad insertion, and the data tools that help publishers understand and grow revenue across fragmented audiences.",
 
   analyst:
-    "Industry-analyst commentary and research findings from NAB Show 2026. Covers independent perspectives on technology adoption, market trends, and the business dynamics shaping broadcast and streaming — including views from Devoncroft Partners and other research firms active at the show."
+    "Industry-analyst commentary and research findings from NAB Show 2026. Covers independent perspectives on technology adoption, market trends, and the business dynamics shaping broadcast and streaming — including views from Devoncroft Partners and other research firms active at the show.",
+
+  hdr:
+    "High dynamic range and wide color gamut technology news from NAB Show 2026. Stories cover HDR format adoption — including Dolby Vision, HDR10, and HLG — across broadcast, streaming, and cinema workflows, as well as the tools and standards that help producers deliver premium picture quality to consumer devices."
 };
 
 export function getTopicDescription(tag: string): string | undefined {

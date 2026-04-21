@@ -7,7 +7,7 @@ tags: ["ai", "cloud", "streaming", "broadcast"]
 source_urls:
   - "https://www.tvtechnology.com/business/iabm-rebrands-as-the-international-association-of-mediatech"
 companies: ["IAMT", "Alpha Cogs"]
-excerpt: "The International Association of Broadcast Manufacturers rebrands as IAMT at NAB 2026 and debuts MAI, an agentic AI discovery platform built on its knowledge base."
+excerpt: "IABM rebrands as IAMT at NAB 2026 and debuts MAI, an agentic AI discovery platform built on its accumulated knowledge base."
 image: "https://cdn.mos.cms.futurecdn.net/ew63KewVTE9B2CJrGtEfQa.jpg"
 image_alt: "IAMT rebrand announcement NAB 2026"
 image_credit: "Credit: IAMT"

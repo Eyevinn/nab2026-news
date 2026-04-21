@@ -1,5 +1,5 @@
 ---
-title: "Sennheiser Spectera SKM Handheld adds Neumann capsule support and remote gain control"
+title: "Sennheiser Spectera SKM Handheld adds Neumann capsules and remote gain"
 slug: "sennheiser-spectera-skm-handheld-neumann"
 date: "2026-04-21T16:00:00Z"
 category: "floor"
@@ -7,7 +7,7 @@ tags: ["audio", "broadcast", "production"]
 source_urls:
   - "https://www.mixonline.com/blog/seen-on-the-scene-nab-show-2026"
 companies: ["Sennheiser"]
-excerpt: "The Spectera SKM Handheld Transmitter extends the platform with wireless handheld capability, Neumann KK 104 A and KK 105 A capsule compatibility, and remote gain and low-cut control."
+excerpt: "The Spectera SKM Handheld extends the Spectera platform with wireless handheld capability, Neumann capsule compatibility, and remote gain and low-cut control."
 ---
 
 [Sennheiser is showing the Spectera SKM Handheld Transmitter at NAB 2026](https://www.mixonline.com/blog/seen-on-the-scene-nab-show-2026), a new hardware addition to the Spectera wireless platform that brings wireless handheld microphone capability alongside the existing beltpack and infrastructure products. The SKM is compatible with Neumann capsule heads including the KK 104 A and KK 105 A, and bi-directional functionality enables remote control of gain and low-cut parameters from the receiving end — a workflow convenience for broadcast crews where the talent and the sound operator are not co-located.

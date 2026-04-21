@@ -1,5 +1,5 @@
 ---
-title: "Castanet launches commercial ATSC 3.0 and 5G Broadcast Internet pilot in Las Vegas"
+title: "Castanet launches commercial ATSC 3.0 and 5G Broadcast Internet pilot"
 slug: "castanet-atsc3-5g-broadcast-pilot"
 date: "2026-04-20T23:05:00Z"
 category: "floor"
@@ -7,7 +7,7 @@ tags: ["atsc3", "5g", "broadcast", "streaming"]
 source_urls:
   - "https://www.tvtechnology.com/platform/broadcast/castanet-launches-hybrid-atsc-3-0-and-5g-broadcast-internet-pilot-network-in-vagas"
 companies: ["Castanet Corporation", "Major Market Broadcasting", "Diya TV"]
-excerpt: "Castanet demonstrated a commercial-ready hybrid ATSC 3.0 and 5G Broadcast Internet network in Las Vegas, covering roughly 60% of the US population via LPTV spectrum."
+excerpt: "Castanet demonstrated a hybrid ATSC 3.0 and 5G Broadcast Internet network in Las Vegas, covering roughly 60% of the US population via LPTV spectrum."
 image: "https://cdn.mos.cms.futurecdn.net/ZTjUYebXKchdJdRScjpT3M.png"
 image_alt: "Castanet hybrid ATSC 3.0 and 5G broadcast internet pilot Las Vegas"
 image_credit: "Credit: Castanet"

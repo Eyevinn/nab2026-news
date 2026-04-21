@@ -7,7 +7,7 @@ tags: ["cloud", "playout", "broadcast", "streaming"]
 source_urls:
   - "https://www.tvtechnology.com/infrastructure/accuweather-taps-amagi-managed-services-to-upgrade-broadcasting-operations"
 companies: ["AccuWeather", "Amagi"]
-excerpt: "AccuWeather has migrated from satellite and hardware infrastructure to Amagi's cloud-based Master Control Room in Princeton, consolidating linear and streaming distribution."
+excerpt: "AccuWeather migrated from satellite and hardware infrastructure to Amagi's cloud-based Master Control Room, consolidating linear and streaming distribution."
 image: "https://cdn.mos.cms.futurecdn.net/cfkAjS2HBzmhZtoduhnspH.png"
 image_alt: "AccuWeather Amagi cloud broadcast managed services"
 image_credit: "Credit: Amagi"

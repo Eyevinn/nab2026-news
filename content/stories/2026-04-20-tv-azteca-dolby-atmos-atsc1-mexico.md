@@ -7,7 +7,7 @@ tags: ["audio", "broadcast", "distribution", "hdr"]
 source_urls:
   - "https://www.tvtechnology.com/platform/broadcast/tv-azteca-to-bring-dolby-atmos-to-free-to-air-tv-in-mexico"
 companies: ["TV Azteca", "Dolby Laboratories", "Imagine Communications", "Ateme"]
-excerpt: "TV Azteca and Dolby announced the first delivery of Dolby Atmos immersive audio over ATSC 1.0 free-to-air broadcasts in Mexico, with Imagine Communications and Ateme as partners."
+excerpt: "TV Azteca and Dolby announced Dolby Atmos delivery over ATSC 1.0 free-to-air broadcasts in Mexico, with Imagine Communications and Ateme as technical partners."
 image: "https://cdn.mos.cms.futurecdn.net/op3xwQzfJDMtbCzCjPriWV.png"
 image_alt: "TV Azteca Dolby Atmos free-to-air broadcast Mexico"
 ---

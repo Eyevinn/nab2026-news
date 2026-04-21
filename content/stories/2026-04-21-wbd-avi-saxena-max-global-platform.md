@@ -1,5 +1,5 @@
 ---
-title: "Warner Bros. Discovery CTO Saxena outlines Max global DTC engineering at Streaming Summit"
+title: "WBD CTO Saxena outlines Max global DTC platform at Streaming Summit"
 slug: "wbd-avi-saxena-max-global-platform"
 date: "2026-04-21T15:35:00Z"
 category: "floor"
@@ -7,7 +7,7 @@ tags: ["streaming", "cloud", "ai", "distribution"]
 source_urls:
   - "https://www.mediaplaynews.com/streaming-summit-returns-to-nab-april-20-21-with-eye-on-sports-bundling-ads-and-ai/"
 companies: ["Warner Bros. Discovery"]
-excerpt: "WBD CTO Avi Saxena joined Streaming Summit chair Dan Rayburn to discuss international expansion, localization demands, and AI's role in live streaming delivery infrastructure."
+excerpt: "WBD CTO Avi Saxena joined Dan Rayburn at Streaming Summit to discuss Max's international expansion, localization demands, and AI's role in live delivery."
 ---
 
 Warner Bros. Discovery CTO [Avi Saxena joined Streaming Summit chair Dan Rayburn](https://www.mediaplaynews.com/streaming-summit-returns-to-nab-april-20-21-with-eye-on-sports-bundling-ads-and-ai/) on Tuesday April 21 to examine the engineering and business challenges of running a global direct-to-consumer platform at scale. The session covered HBO Max's international expansion, the localization requirements of serving multiple markets simultaneously, and how AI is being used inside live streaming delivery infrastructure — not in content creation pipelines.

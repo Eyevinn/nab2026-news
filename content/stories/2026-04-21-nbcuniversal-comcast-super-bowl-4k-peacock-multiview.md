@@ -1,5 +1,5 @@
 ---
-title: "NBCUniversal and Comcast detail AI-upscaled Super Bowl 4K stream and Peacock multiview evolution"
+title: "NBCUniversal and Comcast detail Super Bowl 4K AI upscaling and Peacock multiview"
 slug: "nbcuniversal-comcast-super-bowl-4k-peacock-multiview"
 date: "2026-04-21T15:55:00Z"
 category: "floor"
@@ -8,7 +8,7 @@ source_urls:
   - "https://www.mediaplaynews.com/streaming-summit-returns-to-nab-april-20-21-with-eye-on-sports-bundling-ads-and-ai/"
   - "https://www.nabshow.com/las-vegas/conferences-and-workshops/streaming-summit/"
 companies: ["NBCUniversal", "Comcast"]
-excerpt: "Two Tuesday Streaming Summit sessions from the NBC/Comcast umbrella covered AI-driven 4K Super Bowl upscaling and the multi-platform evolution of Peacock's live sports multiview product."
+excerpt: "Streaming Summit sessions covered AI-driven Super Bowl 4K upscaling and Peacock's evolving live sports multiview from the NBC/Comcast umbrella."
 ---
 
 Two separate sessions at Tuesday's [Streaming Summit](https://www.mediaplaynews.com/streaming-summit-returns-to-nab-april-20-21-with-eye-on-sports-bundling-ads-and-ai/) from the NBCUniversal and Comcast umbrella provided detailed technical accounts of AI applied to premium live sports delivery. One session covered Comcast's technology for producing an upscaled 4K Super Bowl stream, including the AI-driven scene intelligence that analyzed content in real time to guide the upscaling process. A second session featured NBCUniversal's product and engineering teams presenting the continued evolution of Peacock's multiview experience across platforms and devices.
