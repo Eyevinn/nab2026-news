@@ -8,7 +8,7 @@ source_urls:
   - "https://www.mediaplaynews.com/nab-show-2026-still-keen-on-broadcast-nbcs-jon-miller-calls-peacock-complementary-to-nbc/"
   - "https://www.tvtechnology.com/events/sports-summit-goes-into-overtime"
 companies: ["NBC Sports", "NBCUniversal"]
-excerpt: "NBC Sports President Jon Miller told Sports Summit that broadcast television remains the strongest sports rights platform and that Peacock is designed to complement, not replace, NBC."
+excerpt: "NBC Sports President Jon Miller told Sports Summit that broadcast remains the strongest sports rights platform and Peacock complements rather than replaces NBC."
 image: "https://cdn.mos.cms.futurecdn.net/s4n3r9ySRHxX5t9UVtH8gF.jpg"
 image_alt: "Jon Miller NBC Sports at NAB Sports Summit 2026"
 image_credit: "Elsa/Getty Images"

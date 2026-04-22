@@ -7,7 +7,7 @@ tags: ["broadcast", "production", "ip-video", "5g"]
 source_urls:
   - "https://www.dejero.com/blog/dejero-unveils-titan-family-revolutionary-mission-critical-connectivity-portfolio-launches-with-titan-command/"
 companies: ["Dejero", "Eutelsat", "Clear-Com", "Matrox Video", "Ross Video"]
-excerpt: "Dejero staged a live multi-booth NAB demo using TITAN Command's triple-5G architecture, linking Eutelsat, Clear-Com, Matrox Video, and Ross Video across the show floor."
+excerpt: "Dejero ran a live NAB demo linking five booths through TITAN Command's triple-5G architecture, connecting Eutelsat, Clear-Com, Matrox Video, and Ross Video."
 ---
 
 [Dejero used NAB 2026](https://www.dejero.com/blog/dejero-unveils-titan-family-revolutionary-mission-critical-connectivity-portfolio-launches-with-titan-command/) (booth W2761) to stage a live "Field to Air" demonstration across multiple booths on the show floor, with Eutelsat, Clear-Com, GlobalM, Matrox Video, and Ross Video all connected through TITAN Command in real time.

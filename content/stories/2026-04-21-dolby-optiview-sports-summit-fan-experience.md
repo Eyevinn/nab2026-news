@@ -8,7 +8,7 @@ source_urls:
   - "https://www.tvtechnology.com/events/sports-summit-goes-into-overtime"
   - "https://optiview.dolby.com/resources/blog/news/meet-dolby-optiview-at-nab-2026-powering-immersive-interactive-live-sports/"
 companies: ["Dolby", "IBM", "AWS"]
-excerpt: "Dolby OptiView unveiled an Ad Engine and Sports Intelligence at NAB's Sports Summit, with IBM and AWS joining on personalized live sports streaming capabilities."
+excerpt: "Dolby OptiView unveiled an Ad Engine and Sports Intelligence at the Sports Summit, with IBM and AWS joining on personalized sports streaming."
 image: "https://cdn.mos.cms.futurecdn.net/s4n3r9ySRHxX5t9UVtH8gF.jpg"
 image_alt: "Sports Summit at NAB 2026"
 image_credit: "Elsa/Getty Images"

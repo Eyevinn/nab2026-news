@@ -8,7 +8,7 @@ source_urls:
   - "https://www.tvtechnology.com/production/bolin-demos-new-ptz-cameras-and-controller-at-2026-nab-show"
   - "https://bolintechnology.com/bolin-infocus/news-and-event/bolin-announces-3-new-products-at-nab-show-2026"
 companies: ["Bolin Technology"]
-excerpt: "Bolin Technology announced three products at NAB 2026: the Range all-weather PTZ, R9-L420N broadcast camera, and KBD Plus controller with AI tracking on the roadmap."
+excerpt: "Bolin Technology launched the Range all-weather PTZ, R9-L420N broadcast camera, and KBD Plus controller at NAB 2026."
 image: "https://cdn.mos.cms.futurecdn.net/pq8V9fSrDZhS8VWgg7FW2S.png"
 image_alt: "Bolin Range PTZ camera at NAB 2026"
 image_credit: "Credit: Bolin Technology"

@@ -7,7 +7,7 @@ tags: ["ai", "cloud", "production", "broadcast"]
 source_urls:
   - "https://www.tvtechnology.com/events/refreshed-nab-show-reflects-an-industry-in-flux"
 companies: ["NAB", "Microsoft"]
-excerpt: "TV Technology's NAB 2026 survey finds 238 AI-focused exhibitors — an 82% increase year-on-year — as two AI pavilions replace last year's one and show focus shifts from hardware to ecosystems."
+excerpt: "NAB 2026 counts 238 AI-focused exhibitors, up 82% year-on-year, with the show expanding to two AI pavilions as focus shifts from hardware to ecosystems."
 image: "https://cdn.mos.cms.futurecdn.net/9ip2dcgFWffhHD3DmnfgHc.jpg"
 image_alt: "Refreshed NAB Show reflects an industry in flux"
 image_credit: "Credit: NAB"

@@ -7,7 +7,7 @@ tags: ["cloud", "ai", "production", "storage"]
 source_urls:
   - "https://www.broadcastbeat.com/signiant-showcases-new-content-innovations-driving-visibility-access-and-action-at-nab-2026/"
 companies: ["Signiant"]
-excerpt: "Signiant's new Verify capability checks content against technical specs before entering workflows, while Connected Intelligence links external AI models to the platform."
+excerpt: "Signiant's Verify checks content against technical specs before workflows, while Connected Intelligence links external AI models to the platform."
 ---
 
 [Signiant showcased four platform updates at NAB 2026](https://www.broadcastbeat.com/signiant-showcases-new-content-innovations-driving-visibility-access-and-action-at-nab-2026/) (booth W2131), headlined by two capabilities not previously part of the product.

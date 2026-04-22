@@ -7,7 +7,7 @@ tags: ["streaming", "sports", "cloud", "distribution"]
 source_urls:
   - "https://www.mediaplaynews.com/streaming-summit-returns-to-nab-april-20-21-with-eye-on-sports-bundling-ads-and-ai/"
 companies: ["JioHotStar"]
-excerpt: "JioHotStar's Streaming Summit fireside chat described CDN strategy, encoding pipelines, and capacity management for 72 million+ concurrent ICC T20 World Cup viewers."
+excerpt: "JioHotStar described CDN strategy, encoding, and capacity management for 72 million concurrent ICC T20 World Cup viewers at the Streaming Summit."
 ---
 
 A fireside chat at the [NAB Streaming Summit](https://www.mediaplaynews.com/streaming-summit-returns-to-nab-april-20-21-with-eye-on-sports-bundling-ads-and-ai/) on April 20 examined how India's JioHotStar platform engineered delivery for the ICC Men's T20 World Cup at a peak of 72 million concurrent viewers — a figure that reframes the scale expectations for live sports streaming infrastructure.

@@ -57,7 +57,7 @@ export function newsArticleJsonLd(story: Story) {
     "@id": `${url}#article`,
     headline: story.title,
     description: story.excerpt,
-    image: story.image ? [story.image] : undefined,
+    image: story.image ? [{ "@type": "ImageObject", url: story.image }] : undefined,
     datePublished: story.date,
     dateModified: story.date,
     articleSection: story.category === "floor" ? "Floor" : "Online",

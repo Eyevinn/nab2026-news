@@ -8,7 +8,7 @@ source_urls:
   - "https://www.mediaplaynews.com/nab-show-2026-live-sports-streaming-boom-leaves-no-sport-untouched-even-esports/"
   - "https://nabstreamingsummit.com/"
 companies: ["World Racing Group", "ESL FACEIT Group", "Fastly"]
-excerpt: "A Streaming Summit panel contrasted opposite live sports streaming models: World Racing Group charges $300/year for 80–90 races while ESL FACEIT makes all esports content free."
+excerpt: "World Racing Group charges $300/year for 80–90 races; ESL FACEIT makes all esports content free — two models contrasted at Streaming Summit."
 ---
 
 A [Streaming Summit panel on April 20](https://www.mediaplaynews.com/nab-show-2026-live-sports-streaming-boom-leaves-no-sport-untouched-even-esports/) showed that live sports streaming has extended well beyond the major leagues — and that the business models for niche and emerging sports diverge sharply depending on the nature of the audience.
